@@ -2,7 +2,7 @@
 
 把脑子里的碎片想法（哪怕只有「一男一女，朦胧感」这五个字），通过**最多四轮对话**收敛成一条能直接出图的高质量提示词。
 
-作者：**葉子** ｜ 公众号 **AI绘梦师葉子**
+作者：**AI绘梦师葉子**
 
 ---
 
@@ -86,6 +86,13 @@ python scripts/build_terms.py <源md路径>
 #   set   AI_IMAGE_PROMPT_TERMS_SOURCE=<源md路径>     (Windows)
 #   export AI_IMAGE_PROMPT_TERMS_SOURCE=<源md路径>    (macOS/Linux)
 python scripts/build_terms.py
+```
+
+源词库里的推广行（加联系方式 / 扫码 / 引流之类）会被自动剔除。若你还有自己的推广语要一起清掉，用环境变量追加 —— **别写进脚本**，脚本是公开的：
+
+```bash
+#   set    AI_IMAGE_PROMPT_TERMS_BLOCK=词1|词2        (Windows)
+#   export AI_IMAGE_PROMPT_TERMS_BLOCK="词1|词2"       (macOS/Linux)
 ```
 
 > 说明：仓库里已经带好了生成好的产物，日常使用**不需要**跑这个脚本，也不需要源文件。

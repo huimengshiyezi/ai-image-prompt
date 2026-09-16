@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-把飞书导出的「葉子专属AI绘画提示词库💎.md」解析成结构化词表。
+把一份「词库 Markdown」解析成结构化词表。
 
 产出两份（都由脚本生成，**不要手改**）：
     assets/terms.json             结构化词表，供 lookup.py 检索
@@ -24,17 +24,27 @@ import sys
 from collections import OrderedDict
 from pathlib import Path
 
-# 默认源文件：个人知识库导出的原始词库 Markdown。
+# 默认源文件：本地词库 Markdown（若干 `## 区块` + 每区块一张中英对照表）。
 # 优先级：命令行参数 > 环境变量 AI_IMAGE_PROMPT_TERMS_SOURCE > 下面的默认值。
 # 源文件不在手边时不用管它 —— 仓库里的 assets/terms.json 与 references/07
 # 已经是从源文件生成好的产物，日常检索直接用那两个即可。
 SOURCE_MD = os.environ.get(
-    "AI_IMAGE_PROMPT_TERMS_SOURCE", "葉子专属AI绘画提示词库.md"
+    "AI_IMAGE_PROMPT_TERMS_SOURCE", "terms-source.md"
 )
 
 DEFAULT_OUT = Path(__file__).resolve().parent.parent / "assets" / "terms.json"
 
-WATERMARK_PAT = re.compile(r"加我微信|YeZiAiGC|微信号|公众号")
+# 推广 / 水印行拦截：命中任一关键词的单元格直接丢弃，不进产物。
+# 这里只放**通用**推广动作词。若自己的源词库里还有自定义推广语或账号名，
+# 用环境变量追加进来 —— 本脚本会公开，别把个人信息写死在这里：
+#     set    AI_IMAGE_PROMPT_TERMS_BLOCK=推广词1|推广词2   (Windows cmd)
+#     $env:AI_IMAGE_PROMPT_TERMS_BLOCK="推广词1|推广词2"    (PowerShell)
+WATERMARK_PAT = re.compile(
+    "|".join(
+        [r"加我", r"扫码", r"二维码", r"联系我", r"私信", r"关注我", r"引流"]
+        + [w for w in os.environ.get("AI_IMAGE_PROMPT_TERMS_BLOCK", "").split("|") if w]
+    )
+)
 
 SECTION_GROUP = {
     "标准-风格": "风格",
@@ -319,7 +329,8 @@ def main():
             alt_n += 1
 
     payload = {
-        "source": src.name,   # 只记文件名：产物会被公开，不写本机绝对路径
+        # 固定中性值：产物会公开，源文件名/路径可能含个人信息，一律不写进去
+        "source": "本地词库 Markdown",
         "stats": {
             "terms": len(records),
             "unique": len(seen),
@@ -368,11 +379,11 @@ SECTION_ORDER = ["风格", "主体", "姿势", "服装", "饰品", "场景", "�
 
 def render_md(payload):
     lines = [
-        "# 07 · 词表（葉子专属 AI 绘画提示词库 · 清理版）",
+        "# 07 · 词表（AI 绘画提示词库 · 清理版）",
         "",
-        "> 本文件由 `scripts/build_terms.py` 从飞书导出的原始词库自动生成，**不要手改**——",
+        "> 本文件由 `scripts/build_terms.py` 从词库 Markdown 自动生成，**不要手改**——",
         "> 改规则请改脚本里的 `FIX_ZH` / `FIX_PAIR` / `DROP`，然后重跑。",
-        "> 原始素材：`葉子专属AI绘画提示词库💎.md`（个人知识库导出的 Markdown 表格）",
+        "> 原始素材：本地词库 Markdown（若干 `## 区块` + 中英对照表）",
         "",
         "**用法**：先用 `scripts/lookup.py --list` 看分类，再 `--group 场景/天气、灯光、光线` 列候选，",
         "或 `--kw 逆光` 按中英关键词模糊查。**不要整份读完**——本文件只为检索而生。",
