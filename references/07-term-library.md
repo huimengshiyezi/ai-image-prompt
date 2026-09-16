@@ -1,0 +1,2877 @@
+# 07 · 词表（葉子专属 AI 绘画提示词库 · 清理版）
+
+> 本文件由 `scripts/build_terms.py` 从飞书导出的原始词库自动生成，**不要手改**——
+> 改规则请改脚本里的 `FIX_ZH` / `FIX_PAIR` / `DROP`，然后重跑。
+> 原始素材：`葉子专属AI绘画提示词库💎.md`（个人知识库导出的 Markdown 表格）
+
+**用法**：先用 `scripts/lookup.py --list` 看分类，再 `--group 场景/天气、灯光、光线` 列候选，
+或 `--kw 逆光` 按中英关键词模糊查。**不要整份读完**——本文件只为检索而生。
+
+共 2550 条，其中 52 条带英文异名（写作 `(亦作: …)`）。
+
+---
+
+## 风格
+
+### 风格 / 形式（106）
+
+- 插画 → illustration
+- 水墨画 → Sumi-e　(亦作: Ink wash painting)
+- 油画 → oil painting
+- 摄影 → photography
+- 水彩 → watercolor
+- 素描 → sketch　(亦作: Sketching)
+- 雕塑 → ink painting
+- 印刷版画 → Blockprint
+- 利诺剪裁 → Lino cut
+- 手稿 → manuscript
+- 丙烯 → Acrylics
+- 水粉 → Gouache
+- 蛋彩 → Tempera
+- 粉彩 → Pastel
+- 炭笔 → Charcoal
+- 石墨 → Graphite
+- 墨 → Ink
+- 马克笔 → Marker
+- 彩色铅笔 → Colored pencil
+- 钢笔和墨 → Pen and ink
+- 喷漆 → Spray paint　(亦作: Spray Paint)
+- 数码绘画 → Digital painting
+- 热蜡 → Encaustic
+- 壁画 → Fresco
+- 马赛克 → Mosaic
+- 彩色玻璃 → Stained glass
+- 挂毯 → Tapestry
+- 书法 → Calligraphy
+- 刮画板 → Scratchboard
+- 木刻 → Woodcut
+- 版画 → Linocut
+- 蚀刻 → Etching
+- 石版画 → Lithography
+- 丝网印刷 → Screen printing
+- 凹版印刷 → Intaglio
+- 浮雕 → Relief
+- 混合媒介 → Mixed media
+- 水彩画 → water colour painting
+- 透明水彩绘 → watercolor (medium)
+- 水彩铅笔 → watercolor pencil
+- 墨水涂鸦 → ink doodle
+- 炭笔素描 → charcoal sketch
+- 素描艺术 → sketch art
+- 素描纸 → sketch paper
+- 铅笔 → pencils
+- 草图 → posing sketch
+- 漫画 → comic　(亦作: manga; Manga)
+- 传统媒体风格(蜡笔) → faux traditional media
+- 传统媒体 → traditional media
+- 灰度 → greyscale
+- 平色 → flat color
+- 黑白 → black and white　(亦作: Black and white)
+- 褪色的边界 → fading border
+- 浓重的对比(强调颜色) → heavy contrast
+- 唯美主义绘画 → Aestheticism Painting
+- 现实主义绘画 → realism
+- 逼真,仿真 → photorealistic
+- 半写实 → semi-realistic
+- 现实的阴影 → realistic shadows
+- 照片真实感 → Photorealistic
+- 海报/主题聚焦 → poster, caustics
+- 杂志封面 → magazine cover
+- 杂志内页 → magazine scan
+- 动画截图 → anime screenshot
+- 剪影 → silhouette
+- 封面 → cover
+- 专辑 → album
+- Q版 → chibi
+- 信息图画 → Infographic drawing
+- 双重曝光 → Double exposure
+- 图解式画像 → Diagrammatic portrait
+- 衍纸 → Paper quilling
+- 剪纸工艺 → Paper cut craft
+- 虹彩 → Iridescent
+- 日本墨水 → Japanese ink
+- 单线图 → One-line drawing
+- 墨水渲染 → ink render
+- 粉笔画 → Pastel drawing
+- 水彩儿童插画 → Watercolor children's illustration
+- 拼布拼贴画 → Patchwork collage
+- 图示性绘图 → Diagrammatic drawing
+- 二维插图 → 2D illustration
+- 16比特 → 16-Bit
+- 8比特 → 8-Bit
+- 1800s → 1800s
+- 1980s → 1980s
+- 琥珀色调 → Amber
+- 老照片 → Old Photograph
+- 纤维素 → Cellulose
+- 阿拉伯 → Arabic
+- 古代 → Ancient
+- 块状的 → Blocky
+- 蓝图 → Blueprint
+- 天人般 → Celestial
+- 加勒比 → Caribbean
+- 漫画书 → Comicbook　(亦作: comic book)
+- 炭色风格 → Charcoal Style
+- 衍射分级 → Diffraction Grading
+- 堕落的 → Diabolic
+- 色度 → Chromatic
+- 斐波那契数列 → Fibonacci
+- 珊瑚 → Coral
+- 彩色玻璃窗 → Stained glass window
+- 水墨插图 → ink illustration　(亦作: Ink Illustration)
+- 东方山水画 → Tradition Chinese Ink Painting
+- 素描画法 → Sketch Drawing
+
+### 风格 / 艺术家（26）
+
+- 米开朗基罗 → Michelangelo
+- 莫奈 → Monet
+- 保罗-塞尚 → Paul Cezanne
+- 马克-罗斯科 → Mark Rothko
+- 保罗■克利 → Paul Klee
+- 毕加索 → Picasso
+- 皮特-蒙德里安 → Piet Mondrian
+- 皮埃尔-奥古斯特-雷诺阿 → Pierre Auguste Renoir
+- 马特-科利肖 → Mat Collishaw
+- 草间弥生 → Yayoi Kusama
+- 伊戈尔-莫尔斯基 → Igor Morski
+- 新海诚 → Shinkai Makoto　(亦作: Makoto Shinkai; Makoto Shinkai)
+- 皮克斯 → Pixar
+- 京都动漫 → Kyoto Anime
+- 杰里-平克尼 → Jerry Pinkney
+- 宫崎骏 → Hayao Miyazaki
+- 伦勃朗 → Rembrandt
+- 雷内-马格里特 → Rene Magritte
+- 萨尔瓦多-达利 → Salvador Dali
+- 桑德罗■波提切利 → Sandro Botticelli
+- 罗伊-利希滕斯坦 → Roy Lichtenstein
+- 村上隆 → Takashi Murakami
+- 梵高 → Van Gogh　(亦作: Vincent Van Gogh)
+- 瓦西里-康定斯基 → Wassily Kandinsky
+- 克劳德莫奈 → Claude Monet
+- 达芬奇 → Leonardo Da Vinci
+
+### 风格 / 艺术风格（187）
+
+- 全息色彩风格 → Holographic color style
+- 立体等距风格 → Stereoscopic isometric style
+- 3D风格 → 3D style
+- 辛烷渲染风格 → Octane render style
+- 复合式风格 → A made out of "B"
+- 极简主义风格 → minimalist style
+- sheet风格 → sheet style
+- Ul扁平风格 → Ul flat style
+- 平铺罗列风格 → Knolling
+- 复杂设计风格 → complex design style
+- 哥特式 → gothic
+- 日本浮世绘风格 → Ukiyoe
+- 中国国画 → Traditional Chinese painting
+- 现实主义 → realism
+- 黑暗风格 → film noir
+- 浪漫主义 → Romanticism
+- 文艺复兴风格 → Renaissance Art
+- 古典主义 → Neoclassicism
+- 学院派 → academic art
+- 写实主义 → hyperrealism
+- 日式风格 → Japonism
+- 巴洛克式 → Baroque
+- 民间艺术 → folk art
+- 古埃及 → ancient Egypt
+- 手稿 → manuscript
+- 学院主义 → Academicism
+- 愁苦主义 → Miserablism
+- 古希腊艺术 → Ancient Greek art
+- 迪士尼风格 → Disney style
+- 皮克斯风格 → Pixar style
+- 插画风格 → illustration
+- 日本漫画风格 → Japanese manga style　(亦作: Japanese comics/manga)
+- 数字插画 → digital illustration
+- 黑暗幻想风格 → dark fantasy style
+- 波普艺术 → Pop art
+- 印象派 → impressionism
+- 后印象派 → Neo-impressionism
+- 野兽派 → fauvism
+- 表现主义 → expressionism
+- 抽象表现主义 → abstract expressionism
+- 立体主义 → cubism
+- 当代艺术 → contemporary art
+- 动画风格 → anime style
+- 卡通 → cartoon
+- 视觉艺术 → visionary art
+- 漫画书 → comic book　(亦作: Comicbook)
+- 蒸汽朋克 → steampunk
+- 黑暗主题 → dark theme
+- 微缩模型电影 → miniature model film
+- 能生成美漫封面的漫画画面 → DC Comics
+- 纯二次元风格人像 → 2D style portrait/pixiv
+- 威廉森风格 → style of Al Williamson
+- 包豪斯风格 → Bauhaus Style
+- 安迪沃霍尔风格 → Warhol
+- 光色主义 → Luminism
+- 魔幻现实主义 → Magic Realism
+- 批判现实主义 → Critical Realism
+- 像素艺术 → Pixel art
+- 当代写实主义 → Contemporary Realism
+- 纪实的 → Non-Fiction
+- 同步性 → Synchronism
+- 建构主义 → Constructivism
+- 超现实主义 → Surrealism
+- 未来主义 → Futurism
+- ww3风格 → WW3 style
+- 适合科幻场景 → Suitable for Sci-Fi
+- 科幻的 → Sci-Fi
+- 科幻 → Science Fiction
+- 科幻风格 → Sci-Fi style
+- 赛博朋克 → Cyberpunk
+- 概念艺术 → Concept art
+- 黑暗奇幻 → Dark Fantasy
+- 飘渺奇幻 → Ethereal Fantasy
+- 绗缝艺术 → quilted art
+- 立体派 → Cubism
+- 欧普艺术/光效应艺术 → OP Art /Optical Art
+- 维多利亚时代 → Victorian
+- 极简主义 → Minimalist
+- 粗犷主义 → brutalist
+- 旷野之息 → botw
+- 法国艺术 → french art
+- 街头艺术 → Street Art
+- 民族艺术 → Ethnic Art
+- 新艺术风格 → Art Nouveau
+- 点彩派 → pointillism
+- 超现实的 → Surreal
+- 复古黑暗复古 → retro dark vintage
+- 欧普艺术 → Op art
+- 浮世绘艺术 → Ukiyo-e art
+- 纹身艺术 → Tattoo art
+- 滴漆艺术 → Dripping art
+- 新艺术 → Rococo
+- 官方艺术 → official art
+- 游戏CG → game cg
+- 高对比度 → high contrast
+- 速涂风格 → pastel color sketch
+- 80年代风格 → 80s (style)
+- 90年代风格 → 90s (style)
+- 新艺术(不支持含背景) → art nouveau
+- 商业摄影 → Commercial Photography
+- 手绘风格 → hand drawn style
+- 街拍 → street photography
+- 电影摄影风格 → flm photography
+- 日本海报风格 → poster of japanese graphic design
+- 分析性绘图 → Analytic drawing
+- 着色书 → Coloring book
+- 电影风格 → Film style
+- 黑暗幻想 → Dark fantasy
+- 哥特式黑暗 → Gothic gloomy
+- 统一创作 → Unity Creations
+- 时尚 → Fashion
+- 浮世绘 → Japanese Ukiyo-e
+- 巴洛克时期 → Baroque
+- 文艺复兴 → Renaissance
+- 观赏性 → Ornamental
+- 折纸 → Origami
+- 光线追踪 → Ray Tracing　(亦作: ray tracing)
+- riso 印刷风格 → Risograph
+- 现实的 → Realistic
+- 静脉 → Veins
+- 缝合 → Stitching
+- 喷漆 → Spray Paint　(亦作: Spray paint)
+- 斯格格勒斯 → Squiggles
+- 对称性 → Symmetric
+- 合成波 → Synth-wave
+- 技术性 → Technological
+- 创世纪 → Tron
+- 超现代 → Ultra Modern
+- 褶皱的 → Wrinkled
+- 火山型 → Volcanic
+- 湿漆 → Wet Paint
+- 迷你仿制 → Miniature Faking
+- 狂野西部 → Wild West
+- 包浩斯 → Bauhaus
+- 古典风，18-19世纪 → Vintage
+- 黑白电影时期 → Pulp Noir
+- 乡村风格 → Country style
+- 抽象风 → I Abstract
+- riso印刷风 → risograph
+- 设计风 → Graphic
+- 国风 → Tradition Chinese Ink Painting style
+- 涂鸦 → Graffiti
+- 曼陀罗 → Mandala
+- 图形小说 → Graphic Novel
+- 线粒体 → Mitochondria
+- 梅卡巴 → Merkaba
+- 多维度 → Multidimensional
+- 神秘幻想 → Mystic Fantasy
+- 黑白 → Black and white　(亦作: black and white)
+- 珍珠奶茶风格 → Pearl Milk Tea Style
+- 克劳德·莫奈 → Claude Monet
+- 奈方山水画 → Traditional Chinese Ink Painting
+- 水墨风格 → Ink Wash Painting Style
+- 水墨插图 → Ink Illustration　(亦作: ink illustration)
+- 纸本彩色墨水 → Color Ink on Paper
+- 传统文化 → Traditional Culture
+- 日本动画片 → Anime
+- 宫崎骏风格 → Miyazaki Hayao Style　(亦作: Miyazaki Hayao style)
+- 副岛成记 → Soejima Shigenori
+- 山田章博 → Yamada Akihiro
+- 吉卜力风格 → Ghibli Studio Style　(亦作: Ghibli Studio)
+- JOJO的奇妙冒险 → Jojo's Bizarre Adventure　(亦作: jojo's bizarre adventure)
+- 漫画 → Manga　(亦作: manga; comic)
+- 日本风格 → Japanese Style
+- 魔幻现实 → Magic Realism
+- 迪士尼风 → Disney-style
+- 二次元 → ACGN
+- 新海诚 → Makoto Shinkai　(亦作: Shinkai Makoto)
+- 洛丽塔风格 → Lolita Style
+- 童话故事书插图风格 → Stock Illustration Style　(亦作: stock illustration style)
+- 儿童插画 → Children's Illustration
+- 像素风 → Pixel Art
+- 童话风格 → Fairy Tale Style
+- 伏尼契手稿 → Voynich Manuscript
+- 梦工厂动画风格 → Dreamworks Pictures　(亦作: DreamWorks Animation style)
+- 皮克斯 → Pixar
+- 微缩模型电影风格 → Miniature Movie Style
+- 剪辑 → Film Photography
+- 达芬奇 → Leonardo Da Vinci
+- 梵高 → Vincent Van Gogh　(亦作: Van Gogh)
+- 魔幻现实主义风格 → Magic Realism Style
+- 游戏风格 → Game Style
+- 真实的 → Realistic
+- 3D → 3D Style
+- 真实感 → Photorealism
+- 星际战甲 → Warframe
+- 电影般的 → Cinematic
+
+### 风格 / 动漫/动画/游戏风格（33）
+
+- 星际战甲 → Warframe
+- 宝可梦 → Pokémon
+- Apex英雄 → APEX
+- 上古卷轴 → The Elder Scrolls
+- 魂系游戏 → From Software
+- 底特律:变人 → Detroit: Become Human
+- 剑与远征 → AFK Arena
+- 跑跑姜饼人 → cookierun kingdom and 쿠키런
+- 英雄联盟 → League of legends
+- JOJO的奇妙冒险 → jojo's bizarre adventure　(亦作: Jojo's Bizarre Adventure)
+- 宫崎骏风格 → Miyazaki Hayao style　(亦作: Miyazaki Hayao Style)
+- 新海诚 → Makoto Shinkai　(亦作: Shinkai Makoto)
+- 副岛成记 → Soejima Shigenori
+- 山田章博 → Yamada Akihiro
+- 六七质 → Munashichi
+- 梦工厂动画风格 → DreamWorks Animation style　(亦作: Dreamworks Pictures)
+- 梦工厂影业 → DreamWorks Pictures
+- 皮克斯 → Pixar
+- 漫画 → manga　(亦作: comic; Manga)
+- 吉卜力风格 → Ghibli Studio　(亦作: Ghibli Studio Style)
+- 日式动画 → Anime
+- 等距动画 → Isometric anime
+- 90年代电视游戏 → 90s video game
+- 日本漫画风格 → Japanese comics/manga　(亦作: Japanese manga style)
+- 童话故事书插图风格 → stock illustration style　(亦作: Stock Illustration Style)
+- 赛璐璐着色 → cel shading
+- 赛璐璐风格 → cel-shaded style
+- 卡通渲染 → toon shading
+- 三渲二 → 3D cel-shaded
+- 3D 动漫 → 3D anime
+- 动漫渲染 → anime-style rendering
+- 等距卡通渲染 → isometric cel shading
+- 3D 动画电影风格 → 3D animated feature film style
+
+### 风格 / 线条（58）
+
+- 轮廓线画 → Contour drawing
+- 交叉线描 → Cross-hatching
+- 手势画 → Gestural drawing
+- 线描 → Line drawing
+- 涂鸦画 → Scribble drawing
+- 素描画 → Outline drawing
+- 剪影画 → Silhouette drawing
+- 断线画 → Broken line drawing
+- 连续线画 → Continuous line drawing
+- 书法线画 → Calligraphic line drawing
+- 等距线描 → Isometric line drawing
+- 点描 → Stippling
+- 负空间画 → Negative space drawing
+- 单线画 → Single line drawing
+- 双线画 → Double line drawing
+- 富表现力的线描 → Expressive line drawing
+- 建设性的线描 → Constructive line drawing
+- 结构性线描 → Structural line drawing
+- 平面线描 → Flat line drawing
+- 角度线描 → Angular line drawing
+- 波浪线描 → Wavy line drawing
+- 草书线描 → Cursive line drawing
+- 印象主义的线描 → Impressionistic line drawing
+- 现实主义线描 → Realistic line drawing
+- 色调线描 → Tonal line drawing
+- 素描 → Sketching　(亦作: sketch)
+- 勾勒 → Outlining
+- 线刻 → Hatching
+- 交叉线刻 → Crosshatching
+- 点刻 → Stippling
+- 乱画 → Scribbling
+- 动态速写 → Gesture drawing
+- 不看纸画 → Blind contour drawing
+- 松散线画 → Loose line drawing
+- 紧密线画 → Tight line drawing
+- 明暗对比 → Chiaroscuro　(亦作: chiaroscuro)
+- 水墨画 → Ink wash painting　(亦作: Sumi-e)
+- 日本水墨画 → Sumi-e
+- 书法 → Calligraphy
+- 线描水彩 → Line and wash
+- 涂色书 → Coloring book
+- 禅绕画 → Zentangle
+- 线框图 → Wireframe drawing
+- 技术画 → Technical drawing
+- 干笔画 → Dry brush
+- 蓝图 → Blueprint
+- 洛阳花石纹 → Luo Yang Flower Stone Pattern
+- 禅宗画法 → Zen Painting
+- 雕塑线条 → Sculpture Line
+- 细节线条 → Detail Line
+- 手工制作画 → Handmade Painting
+- 立体主义线条 → Cubist Line
+- 抽象线条 → Abstract Line
+- 现代主义线条 → Modernist Line
+- 野兽派线条 → Fauvist Line
+- 表现主义线条 → Expressionist Line
+- 印象派线条 → Impressionist Line
+- 点线结合 → Point and Line Combination
+
+### 风格 / 其他风格（50）
+
+- 可爱的 → cute
+- 闪闪发亮 → shiny
+- 漩曲的 → swirling
+- 法喜充满 → peaceful
+- 纠缠的 → entanglement
+- 交织的 → intertwined
+- 让人喜爱的 → adorable
+- 卡哇伊 → kawaii
+- 轮廓分明，刀切斧凿 → chiseled
+- 巨大的 → Gigantic
+- 骨制 → made of bones
+- 塑胶包装 → plastic shrink wrap
+- 半机械的 → semi-mechanized
+- 花俏的 → fancy
+- 骷髅状的各种东西 → skull shape
+- 雾气的 → foggy
+- 被烟雾包围 → surrounded by smoke
+- 湿润的 → moist
+- 米其林星级 → Michelin star
+- 不光滑的/雾面 → matte
+- 飘渺的 → scary
+- 白色配色 → White color scheme
+- 小巧的 → dinky
+- 对称的 → symmetrical,
+- 错综复杂的 → intricate
+- 以花丝作为细节 → filigree detailing
+- 光速 → Lightspeed
+- 液体 → Liquid
+- 电子电路 → Electronic Circuitry
+- 电气的 → Electrical
+- 未来的 → Futuristic
+- 点状 → Dots
+- 滴落的油漆 → Dripping Paint
+- 沙丘 → Dune
+- 蚀刻 → Etching
+- 缝隙艺术 → Glitchart
+- 地外世界 → Extraterrestrial
+- 原核生物 → Prokaryotic
+- 前历史性的 → Pre Historic
+- 花卉类的 → Floral
+- 分形 → Fractal
+- 水粉画 → Gouache
+- 恐怖 → Horror
+- 乳胶 → Latex
+- 冰河时代 → Ice Age
+- 侏罗纪 → Jurassic
+- 写实的 → Photorealistic
+- 粉彩 → Pastel
+- 针织的 → Knitted
+- 波尔卡 → Polka
+
+### 风格 / 中式元素（16）
+
+- 汉服 → Hanfu
+- 昆曲 → Kunqu opera
+- 旗袍 → Cheongsam
+- 中式服饰 → Chinese costume
+- 功夫 → Kungfu
+- 凤凰 → Chinese phoenix
+- 武侠 → Wuxia
+- 中式礼服 → Chinese dress
+- 景泰蓝 → Cloisonne
+- 牡丹 → Peony
+- 瓷器 → Porcelain
+- 紫禁城 → Forbidden city
+- 中式亭 → Chinese pavilion
+- 刺绣 → Embroidered
+- 玉 → Jade
+- 梅花 → Plum flower
+
+### 风格 / 国潮插画风格（32）
+
+- 中国插图 → Chinese illustration
+- 平面插图 → flat illustration
+- 标记绘图 → Marker drawing
+- 纸本彩墨 → color ink on paper
+- 彩色铅笔绘图 → colored pencil drawing
+- 填色本 → Coloring book
+- 数字拼贴 → Digital collage
+- 涂鸦艺术 → Doodle Art
+- 平线图 → flat line drawing
+- 工笔画 → gongbi painting
+- 图解说明 → Graphic illustration
+- 折纸 → Origami
+- 剪纸工艺 → Paper cut craft
+- 衍纸 → Paper quilling
+- 趋势图 → trend illustration
+- 矢量图 → vector illustration
+- 齐白石 → Qi Baishi
+- 吴冠中 → Wu Guanzhong
+- 宋徽宗赵佶 → Song Huizong Zhao Ji
+- 吴道子 → wu daozi
+- 赵无极 → Zao Wou-Ki
+- 张大千 → zhang daqian
+- 徐悲鸿 → xu beihong
+- 岳敏君 → Yue Minjun
+- 京剧 → Beijing Opera
+- 昆剧 → Kunqu opera
+- 川剧 → Sichuan opera
+- 中国童话 → Chinese fairy tales
+- 中国奇侠 → Chinese Paladin
+- 唐卡 → Thangka
+- 茶艺 → Tea art
+- 中国武侠 → Chinese wuxia
+
+### 风格 / 炫图风格（46）
+
+- 平铺效果 → Knolling
+- 集合效果 → a collection of
+- 3D平面图 → floorplan
+- 雕刻效果 → carving/relief/sculpture
+- 等距视角 → isometric
+- 拟人效果 → anthropomorphic
+- 马赛克拼贴 → Benin art/mosaic style
+- 卷纸艺术效果 → quilling paper art
+- 背景虚化 → depth of field
+- 电影光效 → cinematic lighting
+- 动态模糊 → motion blur
+- 色差 → chromatic aberration
+- 闪耀效果 → sparkle
+- 压缩失真 → jpeg artifacts
+- 模糊的 → blurry
+- 荧光 → glowing light
+- 神圣感顶光 → god rays
+- 光线追踪 → ray tracing　(亦作: Ray Tracing)
+- 反射光 → reflection light
+- 逆光 → backlighting
+- 混合 → blending
+- 盛开 → bloom
+- 抖动 → dithering
+- 色差滥用 → chromatic aberration abuse
+- 立绘阴影 → drop shadow
+- 胶片颗粒感/老电影滤镜 → film grain
+- 半调风格 → halftone
+- 富士色彩 → Fujicolor
+- 图像填充 → image fill
+- 体现运动的线 → motion lines
+- 视错觉 → optical illusion
+- 多重单色 → multiple monochrome
+- 互补色 → anaglyph
+- 立体画 → stereogram
+- 扫描线 → scanlines
+- 晕影 → vignetting
+- 速度线 → speed lines
+- 剪影 → silhouette
+- 明暗对比 → chiaroscuro　(亦作: Chiaroscuro)
+- 科幻全系图效果 → hologram
+- X光透视效果 → x-ray
+- 剖面图 → cutaway
+- 生物发光效果 → bioluminrscent
+- 镀铬效果 → made of chrome
+- ASCII码效果 → ascii art
+- 飞溅效果 → splash
+
+## 主体
+
+### 主体 / 主体、角色（39）
+
+- 男性 → male
+- 女性 → female
+- 男孩 → boy
+- 女孩 → girl
+- 男人 → man
+- 女人 → woman
+- 魔术师/魔法师 → mage
+- 女巫 → Witch
+- 巫女 → miko
+- 萝莉 → loli
+- 正太 → shota
+- 幽灵 → ghost
+- 魔法少女 → magical_girl
+- 魔幻少女 → multiple_girls
+- 医生 → doctor
+- 护士 → nurse
+- 修女 → nun
+- 啦啦队 → cheerleader
+- 男服务员 → waiter
+- 女服务员 → waitress
+- 忍者/日本武士 → ninja
+- 伪娘 → trap/crossdressing
+- 教师 → teacher
+- 同学 → classmate
+- 小精灵 → fairy
+- 美人鱼 → mermaid
+- 妖精 → elf
+- 魅魔 → succubus
+- 天使 → angel
+- 恶魔 → demo
+- 怪物 → monster
+- 魔鬼(撒旦) → devil
+- 吸血鬼 → vampire
+- 兽人/半兽人 → furry/orc
+- 女仆 → maid
+- 人偶 → doll
+- 女巨人 → giantess
+- 迷你女孩 → minigirl
+- 兽耳萝莉模式 → kemonomimi mode
+
+### 主体 / 身材、人物部位（21）
+
+- 瘦 → thin
+- 胖 → fat
+- 肌肉 → muscle
+- 高 → tall
+- 小蛮腰 → Small waist
+- 大长腿 → Long legs
+- 强壮 → strong
+- 苗条 → slim
+- 脸部特写 → Detail Shot(ECU)
+- 头部以上 → Big Close-Up(BCU)
+- 颈部以上 → Close-Up(CU)
+- 胸部以上 → Chest Shot(MCU)
+- 腰部以上 → Waist Shot(WS)
+- 膝盖以上 → Knee Shot(KS)
+- 全身 → Full Length Shot(FLS)
+- 人占 3/4 → Long Shot(LS)
+- 人在远方 → Extra Long Shot(ELS)
+- 肖像 → Portrait
+- 半身像 → Busts
+- 特写 → Close-up
+- 侧面 → Profile
+
+### 主体 / 发型（145）
+
+- 呆毛 → ahoge
+- 齐刘海 → blunt bangs
+- 不对称刘海 → asymmetrical bangs
+- 刘海遮眼 → hair over eyes
+- 刘海遮单眼 → hair over one eye
+- 刘海分开 → parted bangs
+- 中分刘海 → middle Fringe
+- 斜刘海 → Slanted bangs
+- 短发 → short hair
+- 长发 → long hair
+- 中长发 → medium hair
+- 很长的头发 → very long hair
+- 卷发 → curly hair
+- 直发 → straight hair
+- 波浪 → wavy hair
+- 公主卷 → drill hair
+- 自然卷 → wavy hair
+- 翘发 → flipped hair
+- 蘑菇头 → bowl cut
+- 凌乱发型 → messy hair
+- 马尾 → ponytail
+- 短马尾 → short ponytail
+- 侧马尾 → side ponytail
+- 双马尾 → twintails
+- 低马尾 → low ponytail
+- 前马尾 → front ponytail
+- 四马尾 → quad tails
+- 编织马尾辫 → braided ponytail
+- 折叠马尾辫 → folded ponytail
+- 辫子 → braid
+- 单辫 → single braid
+- 双辫 → twin braids
+- 低双辫 → low twin braids
+- 侧编辫 → side braid
+- 冠型织辫 → crown braid
+- 法式辫子 → french braid
+- 脏辫 → dreadlocks
+- 辫子刘海 → braided bangs
+- 辫子髻 → braided bun
+- 发髻 → hair bun
+- 单发髻 → single hair bun
+- 双发髻 → double bun
+- 锥形发髻 → cone hair bun
+- 甜甜圈发髻 → doughnut hair bun
+- 心型发髻 → heart hair bun
+- 钻发 → drill hair
+- 双钻发 → twin drills
+- 侧绑发 → one side up
+- 双侧绑发 → two side up
+- 多绑头发 → multi-tied hair
+- 顶绑发 → topknot
+- 包子头 → hair bun
+- 包子头(两个) → double bun
+- 长鬓角 → payot
+- 湿发 → wet hair
+- 非对称发型 → asymmetrical hair
+- 刘海 → bangs
+- 窗帘/瀑布发型 → curtained hair
+- 双团子头 → double bun
+- 双钻头卷 → twin drills
+- 多钻头卷 → quad drills
+- 单侧钻头卷 → side drill
+- 耳后发 → hair behind ear
+- 带着尖角的发型 → pointy hair
+- 眼间刘海 → hair between eyes
+- 交错刘海 → crossed bangs
+- 团子头 → hair bun
+- 刺刺的头发 → spiked hair
+- 披肩发 → hair over shoulder
+- 美人尖 → widow's peak
+- 分开的刘海 → parted bangs
+- 朝一个方向的刘海 → side swept bangs
+- 双辫子 → twin braids
+- 短双马尾 → short twintails
+- 折叠马尾 → folded ponytail
+- 侧辫 → side braid
+- 摆动的头发 → hair flaps
+- 圆环发髻 → doughnut hair bun
+- 心形发髻 → heart hair bun
+- 遮盖头发稀少的部分 → comb over
+- 富有表现力的头发 → expressive hair
+- 头发遮着双眼 → hair over eyes
+- 一缕一缕的发丝 → hair strand
+- 大呆毛 → huge ahoge
+- 多根呆毛 → antenna hair
+- 秃头 → bald
+- 秃头女孩 → bald girl
+- 锅盖头 → bowl cut
+- 寸头 → buzz cut
+- 心形呆毛 → heart ahoge
+- 平头 → crew cut
+- 平顶 → flattop
+- 河童头 → okappa
+- 精灵头 → pixie cut
+- 帽盔式发型 → undercut
+- 波波头 → bob cut
+- 玉米垄发型 → cornrows
+- 鲻鱼头 → mullet
+- 弓型头发 → bow-shaped hair
+- 前辫 → front braid
+- 多股麻花辫 → multiple braids
+- 三股辫 → tri braids
+- 四股辫 → quad braids
+- 三发髻 → triple bun
+- 发圈 → hair rings
+- 扎头发 → tied hair
+- 单发圈 → single hair ring
+- 只扎了一边头发 → one side up
+- 低辫长发 → low-braided long hair
+- 角发 → mizura
+- 多扎头发 → multi-tied hair
+- 日本发 → nihongami
+- 丸子头 → topknot
+- 两股辫子大小不一样 → uneven twintails
+- 三股辫子 → tri tails
+- 五股辫子 → quin tails
+- 鸟窝头 → afro
+- 超大鸟窝头 → huge afro
+- 蜂窝头 → beehive hairdo
+- 莫霍克发型 → mohawk
+- 蓬松感油头 → quiff
+- 头发遮住了一只眼 → hair over one eye
+- 有光泽的头发 → shiny hair
+- 湿头发 → wet hair
+- 垂下的长鬈发 → hair slicked back
+- 披在两侧的两条辫子 → high ponytail
+- 中等长发 → medium hair
+- 披在两侧的发髻 → side bun
+- 尾部散开的单马尾发型 → split ponytail
+- 小型双股辫 → two side up
+- 超长的头发 → absurdly long hair
+- 云絮状发型 → cloud hair
+- 外卷发型 → flipped hair
+- 触手头发 → tentacle hair
+- 很短的头发 → very short hair
+- 掀起的刘海 → bangs pinned back
+- 耳前发 → sidelocks
+- 单耳前发 → single sidelock
+- 头发后梳 → hair pulled back
+- 侧发后梳 → half updo
+- 一侧绑发 → hair one side up
+- 散发 → hair spread out
+- 漂浮的头发 → floating hair
+- 头发很多的 → big hair
+- 水晶状的头发 → crystal hair
+
+### 主体 / 发色（21）
+
+- 银发 → silver hair
+- 白发 → white hair
+- 黑发 → black hair
+- 棕色头发 → brown hair
+- 茶发 → brown hair
+- 浅褐发 → light brown hair
+- 粉色头发 → pink hair
+- 蓝色头发 → blue hair
+- 深蓝发 → dark blue hair
+- 浅蓝发 → light blue hair
+- 金发 → blonde hair
+- 灰发 → grey hair
+- 紫发 → purple hair
+- 红发 → red hair
+- 绿发 → green hair
+- 粉发 → pink hair
+- 渐变发色 → gradient hair
+- 挑染 → streaked hair
+- 多彩头发 → multicolored hair
+- 内侧染色 → colored inner hair
+- 彩虹发 → rainbow hair
+
+### 主体 / 眼睛（80）
+
+- 细节的美丽的眼睛 → detailed beautiful eyes
+- 水汪汪的眼睛 → watery eyes
+- 异色瞳 → heterochromia
+- 发光的眼睛 → glowing eyes
+- 睫毛 → eyelashes
+- 棕色眼睛 → brown eyes
+- 蓝色眼睛 → blue eyes
+- 眨眼 → wink
+- 睁大眼睛 → wide-eyed
+- 蒙住眼睛 → covered eyes
+- 闭上眼睛 → closed eyes
+- 一只眼睛闭着 → one eye closed
+- 一只眼睛被覆盖 → one eye covered
+- 用绷带包扎一只眼睛 → bandage over one eye
+- 睁着眼睛哭 → crying with eyes open
+- 眯起眼睛 → narrowed eyes
+- 眼下痣 → mole under eye
+- 爱心瞳 → heart-shaped pupils
+- 翻白眼 → rolling eyes
+- 疯狂的眼睛 → crazy eyes
+- 挑眉 → raised eyebrows　(亦作: raised eyebrow)
+- 下眉毛 → furrowed brow
+- 黑眼圈 → dashed eyes
+- 多色的眼睛 → multicolored eyes
+- 一字型瞳孔/挖眼 → horizontal pupils
+- 钻石型瞳孔 → diamond-shaped pupils
+- 没有眼睛 → no pupils
+- 空洞眼睛 → empty eyes
+- 白眼球 → blank eyes
+- 瞳孔扩张 → dilated pupils
+- 漆黑的眼睛 → hollow eyes
+- 收缩的瞳孔 → constricted pupils
+- 符号眼 → symbol-shaped pupils
+- 星形眼睛 → star-shaped pupils
+- X形眼睛 → x-shaped pupils
+- 纽扣眼 → button eyes
+- 眼镜反射 → eye reflection
+- 闭上一只眼 → one eye closed
+- 半闭眼睛 → half-closed eyes
+- 闭眼 → eyes closed
+- 闭一只眼 → wince
+- 吊眼角 → tsurime
+- 盯着看 → eyeball
+- 眼泪 → tears
+- 渐变瞳色 → gradient eyes
+- 水汪汪大眼睛 → aqua eyes
+- 睁着眼落泪 → crying with eyes open
+- 发光眼睛 → glowing eyes
+- 半闭的眼睛 → half-closed eye
+- 开心的眼泪 → happy tears
+- 星星眼 → sparkling eyes
+- 轻蔑 → glaring
+- 流泪 → streaming tears
+- 挡在头发下的眉毛 → eyebrows behind hair
+- 渐变眼 → gradient_eyes
+- 斗鸡眼 → cross-eyed
+- 竖瞳孔/猫眼 → slit pupils
+- 布满血丝的眼睛 → bloodshot eyes
+- 下垂的眼睛 → tareme
+- 恶魔眼 → devil eyes
+- 恶魔的瞳孔 → devil pupils
+- 蛇瞳孔 → snake pupils
+- 异色瞳孔 → heterochromia
+- 紫眼 → purple eyes
+- 红眼 → red eyes
+- 白眼 → white eyes
+- 金眼 → yellow eyes
+- 橙色的眼睛 → orange eyes
+- 上翘的眼睛 → upturned eyes
+- 睁开的眼睛 → wide-eyed
+- 眼圈 → ringed eyes
+- 闪闪发光瞳 → pupils sparkling
+- 花型瞳孔 → flower-shaped pupils
+- 美瞳 → color contact lenses
+- 长睫毛 → longeyelashes
+- 彩色睫毛 → colored eyelashes
+- 实心圆眼睛 → solid circle eyes
+- 心形眼 → heart-shaped eyes
+- 粉红色的眼睛 → pink eyes
+- 琥珀色眼睛 → amber eyes
+
+### 主体 / 耳朵（33）
+
+- 动物耳朵 → animal ears
+- 仿制的动物耳朵 → fake animal ears
+- 狐狸耳朵 → fox ears
+- 狗耳 → dog ears
+- 老鼠耳 → mouse ears
+- 熊耳朵 → bear ears
+- 牛耳朵 → cow ears
+- 鹿耳朵 → deer ears
+- 浣熊耳朵 → raccoon ears
+- 山羊耳朵 → goat ears
+- 马耳 → horse ears
+- 兔子耳朵 → rabbit ears
+- 狮子耳朵 → lion ears
+- 猴耳朵 → monkey ears
+- 熊猫耳朵 → panda ears
+- 皮卡丘耳朵 → pikachu ears
+- 猪耳朵 → pig ears
+- 羊耳朵 → sheep ears
+- 松鼠耳朵 → squirrel ears
+- 虎耳 → tiger ears
+- 狼耳朵 → wolf ears
+- 蝙蝠耳朵 → bat ears
+- 猫耳 → cat ears
+- 猫耳耳机 → cat ear headphones
+- 兔耳 → bunny ears
+- 尖耳 → pointy ears
+- 尖尖的长耳朵 → long pointy ears
+- 遮住耳朵 → covering ears
+- 耳环 → earrings
+- 心形耳环 → heart earrings
+- 环状耳环 → hoop earrings
+- 水晶耳环 → crystal earrings
+- 月牙耳环 → crescent earrings
+
+### 主体 / 表情、情绪（167）
+
+- 温柔的微笑 → kind smile
+- 得意地笑 → smirk
+- 微笑 → smile
+- 迷人的微笑 → seductive smile
+- 凝视 → staring
+- 腮红脸红 → blush
+- 满脸腮红 → full-face blush
+- 可爱的脸 → cute face
+- 尴尬害羞 → embarrassed
+- 面无表情 → expressionless
+- 忧郁 → gloom
+- 悲伤 → sad
+- 脸色苍白 → pale
+- 惊讶 → surprised
+- 疼痛 → pain
+- 尖叫 → screaming
+- 叹息 → sigh
+- 困倦 → sleepy
+- 认真 → serious
+- 皱眉 → frown
+- 挑眉 → raised eyebrow　(亦作: raised eyebrows)
+- 醉酒 → drunk
+- 恍惚 → torogao
+- 高潮 → orgasm
+- 一脸不悦 → unamused
+- 生气 → angry
+- 苦恼 → annoyed
+- 开心 → Happy
+- 厌恶 → Disgusted
+- 期待 → Hopeful
+- 不安 → Anxious
+- 欣喜若狂 → Elated
+- 黑暗 → Dark
+- 残酷 → Brutal
+- 害怕 → Fearful
+- 讨厌 → Hateful
+- 喜怒无常 → Moody
+- 化妆 → makeup
+- 食物在脸上 → food on face
+- 闻 → smelling
+- 鼻血 → nosebleed
+- 咬牙 → clenched teeth
+- 张口 → open mouth
+- 努嘴 → pout
+- 叹气 → sigh
+- 浅笑 → light smile
+- 露齿而笑 → grin
+- 坏笑 → evil smile
+- 生气的 → angry
+- 苦恼的 → annoyed
+- 疯狂的 → crazy
+- 害羞的 → shy
+- 尴尬的 → embarrassed
+- 脸红的 → blush
+- 困乏的 → sleepy
+- 悲伤的 → sad
+- 喝醉的 → drunk
+- 尖牙 → fangs
+- 舌头 → tongue
+- 没有鼻子 → no nose
+- 唾液 → saliva
+- 胡子 → facial hair
+- 用手指做出笑脸 → fingersmile
+- 嘴咬住 → mouth hold
+- 嘴唇微张 → parted lips
+- 闭嘴 → closed mouth
+- 吐舌头 → tongue out
+- 舔嘴唇 → licking lips
+- 哭 → crying
+- 气的冒烟（漫画） → fume
+- 整张脸泛红 → full-face blush
+- 疑惑 → confused
+- 有决心的 → determined
+- 失望的 → disappointed
+- 蔑视 → disdain
+- 恶心 → disgust
+- 绝望 → despair
+- 嫉妒 → envy
+- 邪恶 → evil
+- 以手掩面 → facepalm
+- 沮丧 → frustrated
+- 有罪的 → guilt
+- 孤独的 → lonely
+- 扬起的眉毛 → raised eyebrow
+- 强硬的表情 → rape face
+- 压抑的郁闷的 → depressed
+- 恐慌 → panicking
+- 担忧的 → worried
+- 累 → tired
+- 闷闷不乐 → sulking
+- 思考 → thinking
+- 沉思的 → pensive
+- 气愤 → upset
+- 疯狂的笑 → crazy smile
+- 强迫笑 → forced smile
+- 格拉斯哥微笑 → glasgow smile
+- 苦笑 → sad smile
+- 憋笑 → stifled laugh
+- 惊讶到掉色 → color drain
+- 恐惧表情 → horrified
+- 啜泣 → sobbing
+- 伸出舌头 → oral invitation
+- 害怕的 → scared
+- 怒视、嫌弃、不满 → scowl
+- 严肃的 → serious
+- 惊讶或无语 → spit take
+- 傲娇 → tsundere
+- 流口水 → drooling
+- 诱惑的表情 → torogao
+- 牙 → teeth
+- 下流的表情 → naughty face
+- 忍耐的表情 → endured face
+- 眼中闪现强烈的情感 → glint
+- 快乐 → happy
+- 在笑的 → laughing
+- 嚣张 → troll
+- 病娇 → yandere
+- 唾液拉丝 → saliva trail
+- 朱唇 → red lips
+- 虎牙状 → skin fang
+- 露出上排牙齿 → upper teeth
+- 虎牙 → fang
+- 露出虎牙 → fang out
+- 长舌头 → long tongue
+- 额头 → forehead
+- 淡淡的腮红 → light blush
+- 脸贴脸 → cheek-to-cheek
+- 鼓着腮帮 → cheek bulge
+- 捏脸颊 → cheek pinching
+- 戳脸颊 → cheek poking
+- 扯脸颊 → cheek pull
+- 抬下巴 → chin grab
+- 遮住眼睛 → covering eyes
+- 挡住脸 → covering
+- 挡住嘴巴 → covering mouth
+- 二人面对面 → facing another
+- 额头贴额头 → forehead-to-forehead
+- 要哭的表情 → tearing up
+- 无聊的 → bored
+- 悲观情绪 → gloom
+- 表达式 → expression
+- 嫉妒的 → jealous
+- 轻蔑的眼神 → jitome
+- 不安的 → nervous
+- 不安的微笑 → nervous smile
+- 阴沉的 → shaded
+- 无口 → expressionless
+- 表情 → expressions
+- 失神 → unconscious
+- 明亮的瞳孔 → bright pupils
+- 耳红 → ear blush
+- 憋气 → holding breath
+- 撅起的嘴唇 → puckered lips
+- 诱人的微笑 → seductive smile
+- 笑脸 → smiley
+- 傻笑/得意的笑 → smirk
+- 得意脸 → doyagao
+- 慌乱的 → flustered
+- 眼里冒爱心 → heart in eye
+- 喘粗气 → heavy breathing
+- 呻吟 → moaning
+- 兴奋 → excited
+- 害羞 → nose blush
+- 青筋 → anger vein
+- 表情贴纸 → blush stickers
+- V形眉 → v-shaped eyebrows
+- 厌恶的怪相 → grimace
+
+## 姿势
+
+### 姿势 / 整体姿势（64）
+
+- 站立 → standing
+- 坐着 → sitting
+- 正坐 → seiza
+- 侧身坐 → yokozuwari
+- 身体前驱 → leaning forward
+- 躺着 → lying
+- 趴着 → on stomach
+- 蹲下 → squatting
+- 跨坐 → straddle
+- 下跪 → kneeling
+- 颠倒的 → upside-down
+- 睡觉 → sleeping
+- 弯腰 → squatting
+- 拍头 → headpat
+- 自拍 → selfie
+- 颤抖 → trembling
+- 弓身体 → arched back
+- 趴着翘臀 → top-down bottom-up
+- 翘臀姿势 → bent over
+- 四肢趴地 → all fours
+- 战斗姿态 → fighting stance
+- 拥抱 → hug
+- 唱歌 → singing
+- 跳舞 → dancing
+- 拳打 → punching
+- 脚踢 → kicking
+- 猫一样的姿势 → claw pose
+- 剪刀手 → peace sign
+- 抱腿坐 → knees up
+- 玩水 → wading
+- 浸在水中 → partially submerged,
+- 浮在水上 → afloat
+- 脚在水里 → soaking feet
+- 站立一字马 → standing split, leg up
+- 膝到胸 → knees to chest
+- 双膝并拢脚分开 → knees together feet apart
+- 双腿分开 → legs apart
+- 手夹在腿间 → hand between legs
+- 内八 → pigeon-toed
+- M字腿 → m legs
+- 眨眼 → eyelid pull
+- 眼对眼 → eye contact
+- 向后看 → looking back
+- 哭 → crying
+- 啜泣 → sobs
+- 流泪 → lacrimation
+- 泪痕 → tear stains
+- 翻白眼 → rolleyes
+- 凝视 → stare
+- 盯着你 → stare at me
+- 抬头 → head tilt
+- 手放在自己的胸前 → hand on own chest
+- 手放头旁边 → arm at side
+- 手把腿抓着 → leg hold
+- 屈膝礼 → curtsy
+- 曲腿至胸 → fetal position
+- 摸头 → headpat
+- 脸贴脸 → cheek-to-cheek
+- 拉伸 → stretching
+- 靠罕墙 → against wall
+- 二郎腿 → crossed legs
+- 抽烟 → smoking
+- 侧 → on side
+- 背对背 → back-to-back
+
+### 姿势 / 手部动作（41）
+
+- 招手 → waving
+- 抬手 → arms up
+- 牵手 → holding hands
+- 张手 → spread arms
+- 张开双手 → open hands
+- 张开双臂 → spread arms
+- 张开手指 → spread fingers
+- 敬礼 → salute
+- 嘘手势 → shushing
+- 抬起食指 → index finger raised
+- 伸懒腰 → stretch
+- 翘大拇指 → thumbs up
+- 比出中指 → middle finger
+- 猫爪手势 → cat pose
+- 手枪手势 → finger gun
+- 攥拳 → clenched hand
+- 双手紧握 → interlocked fingers
+- 单手插腰 → hand on hip
+- 双手叉腰 → hands on hips
+- 手放在身后 → arms behind back
+- 手交叉于胸前 → arms crossed
+- 将手藏起来 → hidden hands
+- 展示腋窝 → presenting armpit
+- 扎头发 → tying hair
+- 用手支撑住 → arm support
+- 手撑着头 → chin rest
+- 拉头发 → hair pull
+- 双抬臂 → arms up
+- 用手指做出笑脸 → fingersmile
+- 手放在嘴边 → hand to mouth
+- 舔手指 → finger to mouth
+- 扶正眼镜 → adjusting eyewear
+- 双手相扣 → own hands clasped
+- 双手相合 → own hands together
+- 双手拨头发 → hands in hair
+- 双手V手势 → double peace pose
+- 手托乳房 → breast lift
+- 手伏在乳房上 → breast suppress
+- 手放脸上 → hand on own face
+- 手臂放头后 → arms behind head
+- 胜利手势 → victory sign
+
+### 姿势 / 腿部动作（11）
+
+- 抱腿 → holding legs
+- 抬起腿 → leg up
+- 张开双腿 → spread legs
+- 单腿站立 → standing on one leg
+- 双腿交叉 → crossed legs
+- 双腿分开 → legs apart
+- 双腿并拢 → legs together
+- 双腿之间的手 → hand between legs
+- 手放在自己的大腿上 → hands on own thighs
+- 手在腿下 → hands under legs
+- 盘腿 → indian style
+
+## 服装
+
+### 服装 / 上衣（34）
+
+- 短袖 → short sleeves
+- 长袖 → long sleeves
+- 背心 → vest
+- 衬衫 → shirt
+- 卫衣 → hoodie
+- 夹克 → jacket
+- 内衣 → underwear
+- 胸罩 → bra
+- 露腰上衣 → midriff
+- 制服 → uniform
+- 学校制服 → school uniform
+- 职场制服 → business suit
+- 披风 → cape
+- 束身胸衣 → corset
+- 袈裟 → Kesa
+- 罩衫 → blouse
+- 运动衫 → jersey
+- 燕尾服 → tailcoat
+- 小款背心 → cropped vest
+- T恤 → T-shirt
+- 细肩带 → spaghetti strap
+- 西装外套 → suit jacket
+- 无袖紧身背心 → tank top
+- 外套 → coat
+- 湿衬衫 → wet shirt
+- 毛衣 → sweater
+- 露肩毛衣 → off-shoulder sweater
+- 连帽毛衣 → hooded sweater
+- 连帽夹克 → hooded jacket
+- 翻领衬衫 → collared shirt
+- 肚兜 → dudou
+- 粗呢大衣 → duffel coat
+- 比基尼上衣 → bikini top
+- 袖肩分离装 → detached sleeves
+
+### 服装 / 下裤（40）
+
+- 裤子 → pants
+- 热裤 → hotpants
+- 灯笼裤 → bloomers
+- 短裤 → shorts
+- 瑜伽裤 → yoga pants
+- 运动裤 → track pants
+- 七分裤 → capri pants
+- 破牛仔裤 → torn jeans
+- 牛仔裤 → jeans
+- 牛仔短裤 → denim shorts
+- 紧身裤 → leggings
+- 背带裤 → overalls
+- 光腿 → bare legs
+- 裙子 → skirt
+- 紧身裙 → Pencil Skirt
+- 女仆裙 → maid apron
+- 泡泡裙 → bubble skirt
+- 迷你裙 → miniskirt
+- 荷叶边裙 → frilled skirt
+- 短裙 → short dress
+- 超短裙 → microskirt
+- 长裙 → long dress
+- 比基尼裙 → bikini skirt
+- 百褶裙 → pleated skirt
+- 芭蕾舞短裙 → tutu
+- 蓬蓬裙 → pettiskirt
+- 包臀裙 → sheath dress
+- 正装短裙 → skirt suit
+- 牛仔裙 → denim skirt
+- 格子裙 → checkered skirt
+- 高腰裙 → high-waist skirt
+- 尿布 → diaper
+- 内裤 → panties
+- 没内裤 → no panties
+- 三角裤 → trefoil
+- 丁字裤 → thong
+- 日式丁字裤 → fundoshi
+- 条纹内裤 → striped panties
+- 低腰式内裤 → lowleg panties
+- 系带式内裤 → side-tie panties
+
+### 服装 / 套装（49）
+
+- 连衣裙 → dress
+- 紧身连衣裙 → taut dress
+- 宽松连衣裙 → dress
+- 蕾丝边连衣裙 → lace-trimmed dress
+- 开襟连衣裙 → open dress
+- 有领连衣裙 → collared dress
+- 无袖连衣裙 → sleeveless dress
+- 毛衣连衣裙 → sweater dress
+- 露肩连衣裙 → off-shoulder dress
+- 露背连衣裙 → backless dress
+- 水手服 → serafuku
+- 纳粹军装 → nazi uniform
+- 西装夹克 → Piece Suit
+- 商务装 → business suit
+- 迷彩服 → camouflage uniform
+- 警服 → police uniform
+- 网球服 → tennis uniform
+- 马球衫 → polo shirt
+- 校服 → school uniform
+- 赛车服 → racing suit
+- 吊带裙 → suspender skirt
+- 百褶连衣裙 → pleated dress
+- 体操服 → leotard
+- 唐装 → chinese clothes
+- 旗袍 → chinadress
+- 汉服 → Hanfu
+- 和服 → japanese clothes
+- 泳装 → swimsuit
+- 连体泳衣 → one-piece swimsuit
+- 比基尼 → bikini
+- 正装 → formal
+- 运动服 → gym uniform
+- 浴衣 → yukata
+- 晚会礼服 → evening gown
+- 圣诞装 → santa
+- 圣诞老人服装 → santa costume
+- 女仆装 → maid
+- 逆兔女郎 → reverse bunnysuit
+- 美少女战士制服 → sailor senshi uniform
+- 洛丽塔风格 → lolita fashion
+- 裸体的 → nude
+- 露背装 → backless outfit
+- 军服 → military uniform
+- 婚纱 → wedding dress
+- 高开衩的连身衣 → highleg leotard
+- 白大褂 → abcoat
+- 情趣内衣 → Sex underwear
+- 华丽繁琐的服装 → Gorgeous and fussy clothes
+- 浴巾 → naked towel
+
+### 服装 / 袜子（23）
+
+- 短袜 → socks
+- 日式厚底短袜 → tabi
+- 长袜 → kneehighs
+- 丝袜 → stockings
+- 白丝 → white pantyhose
+- 黑丝 → black stockings
+- 裤袜 → leggings
+- 网袜 → fishnets
+- 渔网袜 → fishnet stockings
+- 过膝袜 → thighhighs
+- 损坏了的过膝袜 → torn thighhighs
+- 袜带 → garter_straps
+- 吊带袜 → garters
+- 横条袜 → striped socks
+- 泡泡袜 → loose socks
+- 长筒袜 → thighhighs
+- 裹腿 → legwear
+- 腿部系带 → ankle lace-up
+- 褶边裤袜 → frilled legwear
+- 褶边长筒袜 → frilled thighhighs
+- 印花裤袜 → print legwear
+- 条纹连裤袜 → striped pantyhose
+- 蕾丝裤袜 → lace legwear
+
+### 服装 / 鞋子（16）
+
+- 高跟鞋 → high heels
+- 拖鞋 → slippers
+- 靴子 → boots
+- 高跟长靴 → high heel boots
+- 系带靴 → cross-laced footwear
+- 及膝靴 → knee boots
+- 高帮靴 → thigh boots
+- 长靴 → boots
+- 马丁靴 → martin boots
+- 玛丽珍鞋 → mary janes
+- 女式学生鞋 → uwabaki
+- 乐福鞋 → loafers
+- 芭蕾舞鞋 → ballet slippers
+- 细跟高跟鞋 → stiletto heels
+- 运动鞋 → sneakers
+- 平底鞋 → flat shoes
+
+## 饰品
+
+### 饰品 / 头饰（72）
+
+- 花冠 → head wreath
+- 头上的花 → hair flower
+- 头顶光环 → halo
+- 发卡 → hairband
+- 发夹 → hairclip
+- 发带 → hair ribbon
+- 发花 → hair flower
+- 花边 → ribbon
+- 丝带 → ribbon
+- 绷带 → bandage
+- 蝴蝶结 → bowtie
+- 蝴蝶结发饰 → hair bow
+- 女仆头饰 → maid headdress
+- 月牙发饰 → crescent hair ornament
+- 头发上系着铃铛 → hair bell
+- 簪子 → kanzashi
+- 头箍 → hairband
+- 皇冠 → crown
+- 三重冕 → tiara
+- 头饰 → hair ornament
+- 铃铛 → bell
+- 兽角 → horns
+- 鹿角 → antlers
+- 三叶草发饰 → clover hair ornament
+- 恶魔的脚 → demon horns
+- 鱼形发饰 → fish hair ornament
+- 额前有宝石 → forehead jewel
+- 额前有图案 → forehead mark
+- 护额 → forehead protector
+- 头绳 → hair bobbles
+- 无线蓝牙耳机 → hairpods
+- 头发上的铃铛 → hair bell
+- 耳机 → headphones
+- 从后脑戴着的耳机 → behind-the-head headphones
+- 兽耳头罩 → animal hood
+- 护肘 → elbow pads
+- 龙角 → dragon horns
+- 美人痣 → mole under mouth
+- X发饰 → x hair ornament
+- 黑色发带 → black hairband
+- 发箍 → hair scrunchie
+- 白色发带 → white hairband
+- 发呆 → hair tie
+- 青蛙发饰 → frog hair ornament
+- 食物发饰 → food-themed hair ornament
+- 星星发饰 → star hair ornament
+- 心形发饰 → heart hair ornament
+- 红色发带 → red hairband
+- 蝴蝶发饰 → butterfly hair ornament
+- 蛇发饰 → snake hair ornament
+- 洛丽塔发带 → lolita hairband
+- 羽毛头饰 → feather hair ornament
+- 蓝色发带 → blue hairband
+- 锚发饰 → anchor hair ornament
+- 叶发饰 → leaf hair ornament
+- 兔子发饰 → bunny hair ornament
+- 骷髅头饰 → skull hair ornament
+- 黄色发带 → yellow hairband
+- 粉色发带 → pink hairband
+- 蝴蝶结发带 → bow hairband
+- 猫头饰 → cat hair ornament
+- 音符发饰 → musical note hair ornament
+- 胡萝卜发饰 → carrot hair ornament
+- 紫色发带 → purple hairband
+- 发珠 → hair beads
+- 多个蝴蝶结 → multiple hair bows
+- 蝙蝠发饰 → bat hair ornament
+- 骨发饰 → bone hair ornament
+- 橙色发带 → orange hairband
+- 雪花发饰 → snowflake hair ornament
+- 头上有花 → flower on head
+- 头上带着花冠 → head wreath
+
+### 饰品 / 帽子（23）
+
+- 兜帽 → hood
+- 贝雷帽 → beret
+- 护士帽 → nurse cap
+- 迷你礼帽 → mini top hat
+- 派对帽 → party hat
+- 水手帽 → sailor hat
+- 圣诞帽 → santa hat
+- 软呢帽 → fedora
+- 女巫帽 → witch hat
+- 太阳帽 → sun hat
+- 棒球帽 → baseball cap
+- 鸭舌帽 → cap
+- 头巾 → turban
+- 草帽 → straw hat
+- 礼帽 → top hat
+- 渔夫帽 → bucket hat
+- 绒线帽 → beanie
+- 东金帽子 → tokin hat
+- 法师帽 → wizard hat
+- 带翅膀的头盔 → winged helmet
+- 放下的兜帽 → hood down
+- 带起来的兜帽 → hood up
+- 类似警帽的帽子 → peaked cap
+
+### 饰品 / 眼部（23）
+
+- 眼镜 → glasses
+- 太阳镜 → sunglasses
+- 风镜 → goggles
+- 眼罩 → blindfold
+- 眼罩(独眼) → eyepatch
+- 面具/眼罩/口罩 → mask
+- 下半无框眼镜 → over-rim eyewear
+- 无框眼镜 → rimless eyewear
+- 护目镜 → goggles
+- 单眼罩 → eyepatch
+- 心形眼镜 → heart-shaped eyewear
+- 卡米纳墨镜 → kamina shades
+- 头上别着护目镜 → goggles on head
+- 帽子上别着护目镜 → goggles on headwear
+- 头戴显示设备 → head mounted display
+- 贴着绷带的脸 → bandage on
+- 一只眼缠着绷带 → bandage over one eye
+- 眼镜的疤痕 → scar across eye
+- 脸颊上的疤痕 → scar on cheek
+- 蒙住的眼 → covered eyes
+- 眼镜别在头上 → eyewear on head
+- 戴眼镜的 → bespectacled
+- 厚如玻璃瓶底的圆眼镜 → coke-bottle glasses
+
+### 饰品 / 面部（11）
+
+- 面具 → mask
+- 面纱 → veils
+- 口罩 → antiseptic mask
+- 天狗面具 → tengu mask
+- 狐狸面具 → fox mask
+- 掀到头上的面具 → mask on head
+- 拉着口罩 → mask pull
+- 摘下的面具 → mask removed
+- 防毒面具 → gas mask
+- 面纹 → facepaint
+- 医用口罩 → surgical mask
+
+### 饰品 / 耳饰（5）
+
+- 耳环 → earrings
+- 月牙耳环 → crescent earrings
+- 心形耳环 → heart earrings
+- 环状耳环 → hoop earrings
+- 耳机 → headphones
+
+### 饰品 / 项链（12）
+
+- 颈部饰品 → choker
+- 项链 → necklace
+- 围巾 → scarf
+- 颈带 → ribbon choker
+- 领带 → necktie/tie
+- 水手领 → sailor collar
+- 领结 → bow tie
+- 项圈 → collar
+- 锚形项圈 → anchor choker
+- 珠子项链 → bead necklace
+- 首饰 → jewelry
+- 脖子上挂着口哨 → whistle around neck
+
+### 饰品 / 手饰（15）
+
+- 手链 → bracelet
+- 珠子手链 → bracelet
+- 手镯 → bangle
+- 手表 → wristwatch
+- 手套 → gloves
+- 长袖手套 → elbow gloves
+- 露指手套 → fingerless gloves
+- 蕾丝手套 → wears a pair of white lace gloves
+- 手杖 → cane
+- 魔杖 → staff
+- 金权杖 → holding a golden staff
+- 手枷 → cuffs
+- 警用手铐 → handcuffs
+- 缠着绷带的手臂 → bandaged arm
+- 左轮手枪 → revolver
+
+### 饰品 / 配饰（11）
+
+- 腰带 → belt
+- 腰包 → fanny pack
+- 纹身 → tattoo
+- 围腰毛衣 → sweater around waist
+- 束腰 → girdling
+- 双肩包 → backpack
+- 手提包 → handbag
+- 斜挎包 → cross-body bag
+- 单肩包 → One shoulder bag
+- 帆布包 → Canvas bag
+- 蓬莱玉枝 → jeweled branch of hourai
+
+## 场景
+
+### 场景 / 场景（158）
+
+- 草原 → in a meadow
+- 高原 → plateau
+- 沙漠 → on a desert
+- 山 → mountain
+- 山谷 → valley
+- 山顶 → the top of the hill
+- 海滩上 → on the beach
+- 好天 → beautiful detailed sky,
+- 好水 → beautiful detailed water
+- 海边日落 → beautiful purple sunset at beach
+- 落日 → sunset
+- 在大海上 → on the ocean
+- 草地 → in a meadow
+- 夏威夷 → in hawaii
+- 罗马街道 → in the romanesque architecture streets
+- 宫廷 → palace
+- 在街上 → in the street
+- 灯塔 → at the lighthouse
+- 温泉 → onsen
+- 酒吧 → in a bar
+- 居酒屋 → in a tavern
+- 教堂 → church
+- 建筑 → building
+- 星巴克 → starbucks
+- 舞台 → stage
+- 室内 → indoors
+- 圣诞节 → christmas
+- 森林 → forest
+- 咖啡厅 → cafe
+- 街道 → street
+- 教室 → classroom
+- 户外 → outdoors
+- 公园 → park
+- 大海 → ocean
+- 城市 → city
+- 餐厅 → restaurant
+- 商店 → shop
+- 中国风 → Chinese style
+- 远处的建筑 → Buildings in the distance
+- 小岛 → islet
+- 湖边 → lakeside
+- 樱花 → cherry blossoms
+- 玫瑰花瓣 → rose petals
+- 花田 → flowers meadows
+- 花瓣 → petals
+- 花 → flower
+- 在城堡里 → in the castle
+- 树 → tree
+- 落花 → falling petals
+- 幻想 → fantasy
+- 异想天开 → whimsically
+- 卧室 → bedroom
+- 废墟 → ruins
+- 废弃城市建筑群 → deserted city buildings
+- 近未来都市 → near future city
+- 街景 → street scenery
+- 炼金室 → Alchemy Laboratory
+- 宇宙 → universe I cosmos
+- 雨天 → rain　(亦作: rainy days)
+- 在晨露中 → In the morning mist
+- 充满阳光 → full of sunlight
+- 银河 → galaxy
+- 黑暗地牢 → dungeon
+- 星云 → nebula
+- 疯狂麦斯沙地风格 → mad max
+- 巴比伦空中花园 → Hanging Gardens of Babylon
+- 杂草丛生的 → overgrown nature
+- 天空之城 → Castle in the Sky
+- 太空 → Space
+- 飞溅的油漆 → Splatter Paint
+- 虫洞 → Wormhole
+- 徽标 → Logo
+- 大理石雕像 → Marble Statue
+- 细菌 → Molecular
+- 核电 → Nuclear
+- 美国国家航空航天局 → NASA
+- 霓虹灯 → Neon　(亦作: Neon Lamp)
+- 轨道 → Orbital
+- 杂草丛生的自然 → Overgrown nature
+- 水下世界 → Underwater world
+- 未来都市 → Futuristic metropolis
+- 魔法花园 → Enchanted garden
+- 魔法城堡 → Magical castle
+- 梦幻云彩 → Dreamy clouds
+- 工业城市景观 → Industrial cityscape
+- 哥特式大教堂 → Gothic cathedral
+- 浮空城市 → Floating city
+- 火星 → Red planet
+- 未来实验室 → Futuristic laboratory
+- 时光穿越城市景观 → Time travel cityscape
+- 机器人工厂 → Robot factory
+- 赛博朋克丛林 → Cyber jungle
+- 神秘山脉 → Mystic mountain
+- 冰洞穴 → Ice cave
+- 襄博朋克城市 → Cyberpunk city
+- 反乌托邦未来 → Dystopian future
+- 鬼屋森林 → Haunted forest
+- 外星地貌 → Extraterrestrial landscape
+- 超现实主义风景 → Surreal landscape
+- 中世纪城堡 → Medieval castle
+- 月球地貌 → Lunar landscape
+- 水晶洞穴 → Crystal cave
+- 星空夜景 → Starry night sky
+- 世界末日城市 → Apocalyptic city
+- 蒸汽朋克城市景观 → Steampunk cityscape
+- 魔法森林 → Magical forest
+- 奇幻村庄 → Fantasy village
+- 雨 → Rain
+- 在晨雾中 → In the morning mist
+- 蹇博朋克街道 → Cyberpunk street
+- 神秘寺庙 → Mystic temple
+- 古代遗迹 → Ancient ruins
+- 沙漠绿洲 → Desert oasis
+- 月球殖民地 → Lunar colony
+- 蒸汽动力机械 → Steam-powered machinery
+- 废弃宇宙飞船 → Abandoned spaceship
+- 神秘古墓 → Mysterious Tomb
+- 霓虹城市 → Neon city
+- 冥界 → Underworld
+- 外星球 → Alien planet
+- 未来公园 → Futuristic park
+- 巨大建筑 → Giant Architecture
+- 蒸汽朋克工厂 → Steampunk Factory
+- 雨天城市 → Rainy City
+- 蘑菇森林 → Mushroom Forest
+- 童话城堡 → Fairy Tale Castle
+- 迷人花园 → Enchanted Garden
+- 后启示录世界 → Post-Apocalyptic World
+- 魔法王国 → Magical Kingdom
+- 反乌托邦景观 → Dystopian Landscape
+- 黑暗森林 → Dark Forest
+- 迷失废墟 → Lost ruins
+- 冰雪王国 → Ice kingdom
+- 热带天堂 → Tropical paradise
+- 极光北极 → Aurora Borealis
+- 后启示录荒野 → Post-apocalyptic wasteland
+- 暴走机甲小巷 → Cyberpunk Alley
+- 数字宇宙 → Digital Universe
+- 超现实梦境 → Surreal Dreamland
+- 宇宙飞船 → Spaceship
+- 神秘森林 → Mystical Forest
+- 天空岛屿 → Sky island
+- 水晶宫殿 → Crystal palace
+- 荒漠孤烟 → Desolate Desert
+- 沉船遗迹 → Sunken Shipwreck
+- 仙人掌沙漠 → Cactus Desert
+- 后启示录 → Post apocalyptic
+- 神活世界 → Mythical world
+- 外太空 → Outer Space
+- 魔幻森林 → Magical Forest
+- 古代神庙 → Ancient Temple
+- 火山喷发 → Volcanic Eruption
+- 浪漫小镇 → Romantic Town
+- 巨大机器 → Giant Machines
+- 末日废城 → Apocalypse Ruins
+- 星球大战 → Star Wars
+- 火星深险 → Mars Exploration
+- 科技城市 → Technological City
+
+### 场景 / 天气、灯光、光线（128）
+
+- 黄金时段照明 → golden hour lighting
+- 强边缘光 → strong rim light
+- 日落 → sunset
+- 傍晚背对阳光 → against backlight at dusk
+- 多云 → cloudy
+- 满月 → full moon
+- 晚上 → night
+- 强阴影 → intense shadows
+- 雨天 → rainy days　(亦作: rain)
+- 雨中 → in the rain
+- 月亮 → moon
+- 月光 → moonlight
+- 夜空 → night sky
+- 星空 → starry sky
+- 天空 → sky
+- 太阳 → sun
+- 流星 → shooting star
+- 柔和的雾 → smooth fog
+- 暴风雨 → thunderstorms
+- 暴风雨的海面 → stormy ocean
+- 海洋背景 → ocean backdrop
+- 闪电 → lightning
+- 重点照明 → Accent Lighting
+- 白昼的光线 → Crepuscular Rays
+- 阳光直接照射 → Direct Sunlight
+- 背景光 → Backlight
+- 音乐会照明 → Concert Lighting
+- 烛光 → Candlelight
+- 黑光 → Blacklight
+- 黄金时段光线 → Golden hour light
+- 灰尘 → Dust
+- 放射性发光体 → Glow Radioactive
+- 熔岩的光芒 → Lava Glow
+- 夜总会照明 → Nightclub Lighting
+- 聚光灯 → Spotlight
+- 量子点 → Quantum Dot
+- 核废料的光芒 → Nuclear Waste Glow
+- 自然照明 → Natural Lighting
+- 霓虹灯 → Neon Lamp　(亦作: Neon)
+- 边缘光 → Edge light
+- 三点式照明 → 3 point lighting
+- 频闪灯 → Strobe light
+- 柔和照明 → Soft Lighting
+- 太阳光 → Sun light
+- 穆迪照明 → Moody Lighting
+- 紫外线 → Ultraviolet
+- 美丽的照明 → Beautiful Lighting
+- 低调照明 → Low key lighting
+- 高调照明 → High key lighting
+- 关键照明 → Key lighting
+- 激励的照明 → Motivated lighting
+- 荧光棒 → Glow-stick
+- 发光 → Glowing
+- 轮廓光 → Rim light
+- 荧光 → Fluorescent
+- 体积照明 → Volumetric Lighting
+- 工作室照明 → Studio lighting
+- 冷光 → Cold light
+- 环境光 → Ambient Light
+- 明亮的光线 → Bright Light
+- 伦勃朗光 → Rembrandt Light
+- 顶光 → Top Light
+- 反光 → Reflection Light
+- 映射光 → Mapping Light
+- 晨光 → Morning Light
+- 情调光 → Mood Lighting
+- 气氛照明 → Atmospheric Lighting
+- 黄金时段光 → Golden Hour Light
+- 明亮的 → Bright
+- 情绪照明 → Mood Lighting
+- 梦幻雾气 → Dreamy Haze
+- 柔软的光线 → Soft Light
+- 雾气朦胧 → Misty Foggy
+- 仙气缭绕 → Ethereal Mist
+- 残酷的 → Brutal
+- 温暖光辉 → Warm Glow
+- 强烈对比的 → Dramatic Contrast
+- 忧郁氛围 → Moody Atmosphere
+- 强光 → Dramatic Light
+- 柔和月光 → Soft Moonlight
+- 层次光 → Volumetric Lighting
+- 微光 → Rays of Shimmering Light
+- OC渲染效果 → Octane Render
+- 黄昏射线 → Crepuscular Rays
+- UE5效果 → Unreal Engine 5
+- 外太空观 → Outer Space View
+- 电影光 → Cinematic Light
+- 强光逆光 → Intense Backlight
+- 立体光 → Volumetric Light
+- 闪光灯光 → Shimmering Light
+- 影棚光 → Studio Light
+- 双性照明 → Bisexual Lighting
+- 反射效果 → Reflection Effect
+- 柔和的照明 → Soft Illumination
+- 柔光 → Soft Lights
+- 投影效果 → Projection Effect
+- 发光效果 → Glow Effect
+- 荧光灯 → Fluorescent Lighting
+- 浪漫烛光 → Romantic Candlelight
+- 好看的灯光 → Beautiful Lighting
+- 电光闪烁 → Electric Flash
+- 渲染效果 → Raytracing
+- 电影灯光 → Cinematic Lighting
+- 戏剧灯光 → Dramatic Lighting
+- 阴影效果 → Shadow Effect
+- 自然光 → Natural Light
+- 暖光 → Warm Light
+- 侧光 → Raking Light
+- 戏剧光 → Dramatic Light
+- 逆光 → Backlight
+- 色光 → Color Light
+- 硬光 → Hard Light
+- 赛博朋克光 → Cyberpunk Light
+- 伦勃朗照明 → Rembrandt Lighting
+- 明暗分明 → Stark Shadows
+- 分体照明 → Split Lighting
+- 黑暗氛围 → Moody Darkness
+- 前灯 → Front Lighting
+- 高对比度 → Harsh Contrast
+- 鲜艳色彩 → Vibrant Color
+- 背光照明 → Backlighting
+- 干净的背景趋势 → Clean Background Trending
+- 安静恬淡 → Serene Calm
+- 明亮高光 → Bright Highlights
+- 边缘灯光 → Rim Lights
+- 星密 → Winking Stars
+- 全局照明 → Global Illumination
+- 柔和烛光 → Soft Candlelight
+
+### 场景 / 背景（6）
+
+- 透明背景 → transparent background
+- 渐变的背景 → gradient background
+- 简单背景或无背景 → background
+- 白色背景 → white background
+- 模糊背景 → blurred background
+- 简单花纹背景 → simple patterned background
+
+### 场景 / 季节（4）
+
+- 春 → in spring
+- 夏 → in summer
+- 秋 → in autumn
+- 冬 → in winter
+
+## 镜头构图
+
+### 镜头构图 / 镜头（114）
+
+- 男性焦点(女性焦点) → male focus
+- 动态姿势 → dynamic pose
+- 动态角度 → dynamic angle
+- 从上面拍 → from above
+- 从下面拍 → from below
+- 看向观众 → looking at viewer
+- 专注于脸 → focus on face
+- 全身拍摄 → full-body shot
+- 相机平行 → camera level/Parallel angles
+- 水平视角 → horizontal view angle
+- 前置焦点 → foreground focus
+- 鱼眼镜头 → fish eye lens
+- 色差 → chromatic aberration
+- 景深 → depth of field
+- 背光 → backlighting
+- 电影灯光 → cinematic lighting
+- 电影角度 → cinematic angle
+- 光线追踪 → ray tracing
+- 光线反射 → reflection light
+- 广角镜头 → Wide-angle lens
+- 长焦镜头 → Telephoto lens
+- 变焦镜头 → Zoom lens
+- 定焦镜头 → Prime lens
+- 微距镜头 → Macro lens
+- 移轴镜头 → Tilt-shift lens
+- 防抖 → Image stabilization
+- 背景虚化 → Bokeh
+- 光圈 → Aperture
+- 快门速度 → Shutter speed
+- 感光度 → ISO
+- 曝光 → Exposure
+- 全画幅相机 → Full-frame camera
+- APS-C 画幅相机 → Crop sensor camera
+- 无反相机 → Mirrorless camera
+- 数码单反相机 → DSLR
+- 傻瓜相机 → Point-and-shoot camera
+- 中画幅相机 → Medium format camera
+- 莱卡相机 → Leica camera
+- 胶片相机 → Film camera
+- 数码相机 → Digital camera
+- 广角照片 → Wide-angle shot
+- 长焦照片 → Telephoto shot
+- 低光照片 → Low-light shot
+- 高键照片 → High-key shot
+- 低键照片 → Low-key shot
+- 剪影照片 → Silhouette shot
+- 逆光照片 → Backlit shot
+- 全景照片 → Panorama
+- 高动态范围照片 → HDR
+- 仰视 → look up　(亦作: Up view)
+- 第一人称视角 → first-person view
+- 微观 → microscopic view
+- 超侧角 → super side angle
+- 第三人称视角 → third-person perspective
+- 两点透视 → two-point perspective
+- 三点透视 → Three-point perspective
+- 肖像 → portrait
+- 立面透视 → Elevation perspective
+- 超广角镜头 → ultra wide shot
+- 头部特写 → headshot　(亦作: Headshot)
+- 横截面图 → a cross-section view of (a walnut)
+- 电影镜头 → cinematic shot
+- 焦点对准 → in focus
+- 景深(dof) → depth of field (dof)
+- 相机型号 焦段 光圈 → Canon 5D, Fujifilm XT100, Sony Alpha
+- 特写 → Close-Up(CU)
+- 中特写 → Medium Close-Up(MCU)
+- 中景 → Medium Shot(MS)
+- 中远景 → Medium Long Shot(MLS)
+- 远景 → Long Shot(LS)
+- 过肩景 → over the shoulder shot
+- 松散景 → loose shot
+- 近距离景 → tight shot
+- 两景(2S) → two shot(2S)
+- 三景(3S) → three shot(3S)
+- 群景(GS) → group shot(GS)
+- 风景照 → scenery shot
+- 前景 → foreground
+- 背景 → background
+- 细节镜头(ECU) → Detail Shot(ECU)
+- 面部拍摄(VCU) → Face Shot (VCU)
+- 聚焦在 → focus on
+- 自由视角 → Free camera
+- 固定视角 → Fixed camera
+- 俯视视角 → Top-down perspective
+- 侧面视角 → Side-scrolling perspective
+- 短距离视角 → Close-up view
+- 远距离视角 → Long-shot view
+- 随意视角 → Arbitrary view
+- 跟随视角 → Follow camera
+- 内视镜视角 → Endoscopic view
+- 肩膀视角 → Over the shoulder
+- 鱼眼视角 → Fisheye lens
+- 微距视角 → Macro lens
+- 反转视角 → Reverse angle
+- 胸部以上 → Chest Shot (MCU)
+- 膝盖以上 → Knee Shot (KS)
+- 人在远方 → Extra Long Shot (ELS)
+- 头部以上 → Big Close-Up (BCU)
+- 脸部特写 → Face Shot (VCU)
+- 半身像 → Bust Portrait
+- 大特写 → Detail Shot (ECU)
+- 全景视角 → Panoramic View
+- 逆光摄影风格 → Backlight Style
+- 低角度视角 → Low Angle Shot
+- 俯拍视角 → Overhead
+- 常规视角 → Eye-level
+- 鸟瞰视角 → Bird's-Eye
+- 交错视角 → Dutch Angle
+- 运动视角 → Dynamic
+- 极限特写 → Extreme Close-Up
+- 透视视角 → Perspective
+- 极限近景 → Extreme Close-Up
+- 模拟摄影机 → Simulated Camera
+
+### 镜头构图 / 构图（71）
+
+- 对称构图 → Symmetrical composition
+- 对角线构图 → Diagonal composition
+- 水平线构图 → Horizontal line composition
+- 散点构图 → Scattered composition
+- 遮挡构图 → Blocking composition
+- 线条构图 → Line composition
+- 仰拍构图 → Upside-down composition
+- 俯拍构图 → Perspective composition
+- 对比构图 → Contrast composition
+- 框架式构图 → Frame composition
+- 等距 → isometric
+- 等距视图 → isometric view
+- 特写视图 → closeup view
+- 高角度视图 → high angle view
+- 乌瞰图 → A bird's-eye view,aerial view
+- 顶视图 → Top view
+- 倾斜移位 → tilt-shift
+- 卫星视图 → satellite view
+- 底视图 → Bottom view
+- 前视图、侧视图、后视图 → front, side, rear view
+- 产品视图 → product view
+- 极端特写视图 → extreme closeup view
+- 鸟瞰图 → Aerial view
+- 三分法 → Rule of Thirds
+- 黄金分割 → Golden Ratio
+- 对称 → Symmetry
+- 不对称 → Asymmetry
+- 引导线 → Leading Lines
+- 构框 → Framing
+- 孤立 → Isolation
+- 深度 → Depth
+- 对比 → Contrast
+- 纹理 → Texture
+- 中心构图 → Centered composition
+- S形构图 → S-shaped composition
+- 横向构图 → Horizontal composition
+- 对称身体 → Symmetrical body
+- 对称面孔 → Symmetrical face
+- 体积光 → Volumetric light/Volume Method
+- 非对称构图 → Asymmetrical composition
+- 三分法构图 → Rule of Thirds composition
+- 黄金分割构图 → Golden Ratio composition
+- 画框构图 → Framing composition
+- 动态对称构图 → Dynamic symmetry composition
+- 并列构图 → Juxtaposition composition
+- 汇聚线条构图 → Converging lines composition
+- 饱和构图 → Saturated composition
+- 消失点构图 → Vanishing point composition
+- 非线性构图 → Nonlinear composition
+- 视角构图 → Point of view composition
+- 剪影构图 → Cut out composition
+- 重复构图 → Repetition composition
+- 焦点构图 → Focal point composition
+- 重叠构图 → Overlapping composition
+- 孤立构图 → Isolation composition
+- 径向构图 → Radial composition
+- 分割互补构图 → Split complementary composition
+- 拼贴构图 → Collage composition
+- 布景构图 → Mise-en-scene composition
+- 负空问构图 → Negative space composition
+- 宽景 → Wide view
+- 鸟瞰 → Bird's-eye view
+- 俯视 → Top view
+- 仰视 → Up view　(亦作: look up)
+- 正面 → Front view
+- 头部特写 → Headshot　(亦作: headshot)
+- 超广角 → Ultra-wide shot
+- 极端特写 → Extreme close-up
+- 微距 → Macro shot
+- 景观 → An expansive view of
+- 前视、侧视、后视图 → Front, Side, Rear View
+
+### 镜头构图 / 镜头解析（14）
+
+- 广角镜头，通常指焦距小于35mm的镜头，可捕捉更广阔的场景 → Wide-angle lens
+- 标准镜头，通常指焦距约为50mm的镜头，视角与人眼相近 → Standard lens
+- 长焦镜头，通常指焦距大于70mm的镜头，可拍摄远距离的主体 → Telephoto lens
+- 变焦镜头，可通过调整焦距拍摄不同视角的主体 → Zoom lens
+- 微距镜头，可拍摄极其细小的主体，通常有1:1的放大倍率 → Macro lens
+- 鱼眼镜头，可拍摄极其宽广的场景，视角通常为180度以上 → Fish-eye lens
+- 移轴镜头，可调整透视和景深，常用于建筑和风景摄影 → Tilt-shift lens
+- 快速镜头，指最大光圈较大（如f/1.4或f/1.8）的镜头 → Fast lens
+- 中画幅相机，可拍摄更高分辨率和更细腻的细节 → Medium format
+- 全画幅相机，指传感器大小等同于35mm胶片的相机 → Full frame camera
+- APS-C画幅相机，指传感器大小小于全画幅相机的相机 → Crop sensor camera
+- 莱卡相机，指使用徕卡镜头的相机，以高质量和精度著称 → Leica camera
+- 好景深，指焦外模糊的效果，常用于强调主体并创造氛围 → Bokeh
+- 暗角，指图像四周较暗的效果，常用于增加画面深度和视觉吸引力 → Vignetting
+
+## 质量
+
+### 质量 / 画质（82）
+
+- 最高质量 → the best quality
+- 杰作 → masterpiece
+- 极致的细节 → extreme detail
+- 超高清 → ultra-high definition
+- 8k → 8k
+- 惊人的 → amazing　(亦作: Breathtaking)
+- 原创 → original
+- 景深 → depth of field
+- 非常详细的壁纸 → extremely detailed wallpaper
+- 非常详细的cg → extremely detailed cg
+- 超现实图片 → surreal photo
+- 极高分辨率 → incredibly absurdres
+- 插画 → illustration
+- 壁纸 → wallpaper
+- 高细节 → high detail
+- 高品质 → hyper quality
+- 高分辨率 → high resolution
+- 全高清.1080P,2K,4K,8K → FHD,1080P,2K,4K,8K
+- 8k流畅 → 8k smooth
+- 1280 x 720 → 720p
+- 1920 x 1080 → 1080p
+- 2048 x 1080 → 2K
+- 4096 x 2160 → 4K
+- 5120 x 2880 → 5K
+- 7680 x 4320 → 8K
+- 10240 x 4320 → 10K
+- 1280 x 720 或 1920 x 1080 → HD
+- 3840 x 2160 → UHD
+- 全高清 → Full HD
+- 8k 流畅 → 8k Smooth
+- 8K 分辦率 → 8K Resolution
+- 16K 分辦率 → 16K Resolution
+- 超清晰 → Super Clarity
+- 超高分辨率 → Ultra-high Resolution
+- 超高清 HDR → Ultra HD HDR
+- 超高清晰度 → Ultra-high Clarity
+- 超高清画面 → Ultra HD picture
+- 摄影感 → Photography
+- 徕卡镜头 → Leica Lens
+- 详细细节 → Detailed
+- 画面渲染品质关键词 → Keywords for Visual Rendering Quality
+- Arnold 渲染器 → Arnold Renderer
+- V-Ray 渲染器 → V-Ray Renderer
+- Redshift 渲染器 → Redshift Renderer
+- Octane 渲染器 → Octane Renderer
+- C4D 渲染器 → C4D Renderer
+- Blender 渲染器 → Blender Renderer
+- Mental Ray 渲染器 → Mental Ray Renderer
+- 散蓝渲染器 → Indigo Renderer
+- 虚幻引擎 → Unreal Engine　(亦作: Unreal engine)
+- Octane 渲染 → Octane Render
+- Maxon Cinema 4D → Maxon Cinema 4D
+- 建筑渲染 → Architectural Visualization　(亦作: Architectural visualisation)
+- 全局光照 → Global Illumination
+- 着色器 → Shader
+- 亚像素采样 → Subpixel Sampling
+- 室内渣染 → Indoor Rendering
+- Quixel Megascans → Quixel Megascans
+- 渲染 → Rendering
+- 超真实 → Hyperrealism
+- 环境光遮蔽 → Ambient Occlusion
+- 物理渲染 → Physically Based Rendering
+- Monte Carlo 渲染 → Monte Carlo Rendering
+- 贴图映射 → Texture Mapping
+- FStorm 渲染器 → FStorm Renderer
+- Corona 渲染器 → Corona Renderer
+- 抗锯齿 → Anti-aliasing (AA)
+- 体积渲染 → Volume Rendering
+- 光线追踪 → Ray Tracing
+- 光线投射 → Ray Casting
+- 格点光线追踪 → Grid-based Ray Tracing
+- 重要性采样 → Importance Sampling
+- Octane渲染 → Octane render
+- V-ray渲染 → V-ray
+- Corona室内渲染 → Corona render
+- QM渲染 → Quixel megascans render
+- C4D渲染 → Maxon cinema 4D
+- 硬边阴影 → hard-edged shadow
+- 块状高光 → blocky specular highlight
+- 描边线 → outline stroke
+- 块面头发 → blocky anime hair
+- 次表面散射 → subsurface scattering
+
+### 质量 / 色调、渲染（94）
+
+- 红 → Red
+- 白 → White
+- 黑 → Black
+- 绿 → Green
+- 黄 → Yellow
+- 蓝 → Blue
+- 紫 → Purple
+- 灰 → Gray
+- 棕 → Brown
+- 青 → Cyan
+- 橙 → Orange
+- 彩色的 → colorful
+- 鲜艳的 → vivid colors
+- 颜色怀旧的 → nostalgia
+- 明亮色 → bright
+- 高对比 → high contrast
+- 高饱和 → High saturation
+- 金银色调 → Gold and silver tones
+- 霓虹色调 → Neon Accents
+- 黑色背景为中心 → Black background centered
+- 多色彩搭配 → Multi color matching
+- 低纯度色调 → Low purity tone
+- 高纯度色调 → High purity tone
+- 淡色调 → tints
+- 对比度 → contrast ratio
+- 波普艺术 → POP art
+- 雪山蓝色系 → Snow Mountain Blue Series
+- 镭射糖果纸色 → Laser candy paper color
+- 马卡龙色 → Macaron
+- 莫兰迪色系 → Morandi color scheme
+- 钛金属色系 → Titanium metal color system
+- 鲜果色系 → Fresh fruit color scheme
+- 黑白灰色系 → Black and white gray system
+- 极简黑白色系 → Minimalist black and white color scheme
+- 温暖棕色系 → Warm Brown Series
+- 柔和粉色系 → Soft Pink
+- 时尚灰色系 → Fashion Grey
+- 亮丽橙色系 → Bright Orange Series
+- 自然绿色系 → Natural Green Series
+- 象牙白色系 → Ivory white series
+- 奢华金色系 → Luxury Gold Tones
+- 巨无霸色系 → Big Mac color scheme
+- 紫罗兰色系 → Violet color scheme
+- 柠檬黄色系 → Lemon yellow
+- 日暮色系 → Sunset color system
+- 孟菲斯色系 → Memphis color scheme
+- 蒙德里安色系 → Mondrian color scheme
+- 洛可可色系 → ROCOCO
+- 敦煌色系 → Dunhuang color system
+- 马蒂斯色系 → Matisse color scheme
+- 克莱因蓝 → Klein Blue
+- 爱马仕橙 → Hermes Orange
+- 蒂芙尼蓝 → tiffany blue
+- 中国红 → Chinese Red
+- 孔雀绿 → Peacock Green
+- 提香红 → Tixiang Red
+- 只此青绿 → Turquoise color
+- 马耳他蓝 → Malta Blue
+- 马尔斯绿 → Mars Green
+- 黑金色调 → Gold and black tone
+- 鲜艳 → Rich color
+- 霓虹氛围 → Neon shades
+- 粉白色调 → White and pink tone
+- 红黑色调 → Red and black tone
+- 单色 → Monotone
+- 虚幻引擎 → Unreal engine　(亦作: Unreal Engine)
+- 戏剧性对比度 → Dramatic contrast
+- 建筑渲染 → Architectural visualisation　(亦作: Architectural Visualization)
+- 黑色背景居中 → Black background centered
+- 白色和绿色调 → White and green tones
+- 红色和黑色调 → Red and black tones
+- 黄色和黑色调 → Yellow and black tones
+- 金色和银色调 → Gold and silver tones
+- 稳重蓝色系 → Steady Blue
+- 丹宁蓝色系 → Denim Blue
+- 经典红黑白色系 → Classic Red Black and White
+- 珊瑚橙色系 → Coral Orange
+- 秋日棕色系 → Autumn Brown
+- 紫罗兰紫色系 → Violet Purple
+- 水晶藍色系 → Crystal Blue
+- 糖果色系 → Candy
+- 珊瑚色系 → Coral
+- 绿野仙踪色系 → Emerald
+- 玫瑰金色系 → Rose Gold
+- 浅藍色系 → Sky Blue
+- 酒紅色系 → Burgundy
+- 土耳其藍色系 → Turquoise
+- 薄荷绿色系 → Mint Green
+- 枫叶红色系 → Maple Red
+- 发光 → Shine
+- 圣光 → Holy Light
+- 星闪 → Star Flash
+- 荧光 → Fluorescence
+- 反射透明彩虹色 → Reflections Transparent Iridescent Colors
+
+### 质量 / 细节描述词（140）
+
+- 奇妙细节 → Marvelous Details
+- 精美细节 → Exquisite Details
+- 惊人的细节 → Stunning Details
+- 令人印象深刻的细节 → Impressive Details
+- 高级细节 → High Details
+- 精细细节 → Fine Details
+- 加强细节 → Enhanced Details
+- 难以置信的细节 → Incredible Details
+- 无与伦比的细节 → Unmatched Details
+- 令人惊叹的细节 → Mind-blowing Details
+- 极致细节 → Extreme Details
+- 疯狂细节 → Insane Details
+- 令人惊叹的 → breathtaking
+- 令人敬畏的 → awe-inspiring
+- 混乱的 → chaotic
+- 迷人的 → charming
+- 引人注目的 → compelling
+- 复杂的 → complex
+- 显眼的 → conspicuous
+- 炫目的 → dazzling
+- 令人愉悦的 → delightful
+- 细节丰富的 → detailed
+- 坚决的 → determined
+- 庄重的 → dignified
+- 梦幻般的 → dreamy
+- 光辉的 → effulgent
+- 精细的 → elaborate
+- 高尚的 → elevated
+- 令人愉快的 → enjoyable
+- 诱人的 → enticing
+- 优雅的 → ethereal
+- 崇高的 → exalted
+- 精致的 → exquisite
+- 幻想的 → fanciful
+- 疯狂的 → frenzied
+- 有趣的 → fun
+- 华而不实的 → gaudy
+- 闪烁的 → glimmering
+- 闪亮的 → glistening
+- 闪闪发光的 → glittering
+- 宏伟的 → grandiose
+- 富有想象力的 → imaginative
+- 帝国式的 → imperial
+- 令人印象深刻的 → impressive
+- 白炽的 → incandescent
+- 复杂精细的 → intricate
+- 引人入胜的 → intriguing
+- 招摇的 → kitschy
+- 有光泽的 → lustrous
+- 神奇的 → magical
+- 壮丽的 → magnificent
+- 雄伟的 → majestic
+- 令人着迷的 → mesmerizing
+- 神秘的 → mystical
+- 高贵的 → noble
+- 奢华的 → opulent
+- 装饰性的 → ornamental
+- 华丽的 → ornate
+- 炫耀的 → ostentatious
+- 超凡的 → otherworldly
+- 强大的 → powerful
+- 辐射的 → radiant
+- 帝王般的 → regal
+- 坚定的 → resolute
+- 辉煌的 → resplendent
+- 闪耀 → scintillating
+- 有魅力的，诱人的 → seductive
+- 闪烁的，闪耀的 → shimmering
+- 炫耀的，张扬的 → showy
+- 老练的，有教养的，复杂精密的 → sophisticated
+- 闪耀的，活泼的 → sparkling
+- 壮观的，引人入胜的 → spectacular
+- 迷人的，令人入迷的 → spellbinding
+- 庄严的，高贵的 → stately
+- 坚定的，不动摇的 → steadfast
+- 引人注目的，惊人的 → striking
+- 极美的，惊人的 → stunning
+- 崇高的，超凡的，壮丽的 → sublime
+- 豪华的，奢侈的 → sumptuous
+- 旋转的，缭绕的 → swirling
+- 坚韧的，顽强的 → tenacious
+- 卓越的，超越凡俗的 → transcendent
+- 动荡的，骚乱的 → tumultuous
+- 动荡的，狂暴的 → turbulent
+- 闪烁的，眨眼间的 → twinkling
+- 坚定不移的，毫不动摇的 → unwavering
+- 坚定的，不屈不挠的 → unyielding
+- 异想天开的，古怪的 → whimsical
+- 非凡的 → Extraordinary
+- 不寻常的 → Phenomenal
+- 不可能的 → Improbable
+- 难以解释的 → Inexplicable
+- 难以理解的 → Unfathomable
+- 令人困惑的 → Puzzling
+- 魔幻的 → Magical
+- 不可思议的 → Marvelous
+- 令人震惊的 → Astounding
+- 奇迹般的 → Miraculous
+- 惊人的 → Breathtaking　(亦作: amazing)
+- 史诗般的 → Epic
+- 传奇的 → Legendary
+- 神话般的 → Mythical
+- 英雄般的 → Heroic
+- 宇宙的 → Cosmic
+- 银河的 → Galactic
+- 平整的 → Flat
+- 精密的 → Precise
+- 线条流畅的 → Sleek
+- 流线型的 → Streamlined
+- 柔和的 → Soft
+- 弯曲的 → Curved
+- 线条优美的 → Graceful
+- 多样化的 → Varied
+- 有机的 → Organic
+- 光洁的 → Polished
+- 细微的 → Subtle
+- 纤细的 → Slender
+- 线条细致的 → Intricate
+- 曲线细腻的 → Delicately Curved
+- 线条弯曲但流畅的 → Sinuous
+- 线条优美且精细的 → Exquisite
+- 有纹理的 → Textured
+- 有层次感的 → Layered
+- 纹路自然的 → Organic Pattern
+- 具有浮雕感的 → Embossed
+- 具有雕刻感的 → Carved
+- 超细节 → Epic Detail
+- 光滑的 → Smooth
+- 清晰的 → Clear
+- 细腻的 → Delicate
+- 线条优美且流畅的 → Elegant
+- 线条柔和且平滑的 → Soothing
+- 曲线优美的 → Curvaceous
+- 粗糙的 → Rough
+- 不规则的 → Irregular
+- 锋利的 → Sharp
+- 粗大的 → Bulky
+- 多棱角的 → Angular
+- 充满动感的 → Dynamic
+- 统一的 → Uniform
+
+### 质量 / 材质（74）
+
+- 铝合金 → Aluminum
+- 砖块 → Brick
+- 铜质 → Bronze
+- 碳纤维 → Carbon Fiber
+- 纤维素 → Cellulose
+- 纸板 → Cardboard
+- 陶瓷 → Ceramic
+- 棉花 → Cotton
+- 软糖 → Gummies
+- 乳胶 → Latex
+- 石英 → Quartz
+- 塑胶 → Plastic
+- 布料 → Fabric
+- 金色 → Gold
+- 光纤 → FiberOptic
+- 纸张 → Paper
+- 箔 → Foil
+- 玻璃 → Glass
+- 纱线 → Yarn
+- 紫水晶 → Amethyst
+- 抛光 → High polished
+- 喷砂 → Sandblasted
+- 乌木 → Ebony
+- 缎面 → Satin
+- 皮革 → Leather
+- 金属质地 → Metallic
+- 镣 → Nickel
+- 尼龙 → Nylon
+- 包裹 → Wrap
+- 木制的 → Wooden
+- 玄武岩 → Basalt
+- 象牙 → lvory
+- 松木 → Pine
+- 钻石 → Diamond
+- 拉丝 → Brushed
+- 哑光 → Matte
+- 金属质感 → Metallic texture
+- 石质 → Stone texture
+- 珠光质感 → Pearl luster texture
+- 玻璃质感 → Glass texture
+- 皮革质感 → Leather texture
+- 棉质 → Cotton texture
+- 水晶质感 → Crystal texture
+- 塑料质感 → Plastic texture
+- 亚光质感 → Matte texture
+- 珍珠质感 → Pearl texture
+- 绸缎质感 → Silk texture
+- 毛绒质感 → Fluffy texture
+- 水波纹质感 → Water wave texture
+- 石墨质感 → Graphite texture
+- 竹子质感 → Bamboo texture
+- 薄纸巾 → Tissue paper
+- 瓷器 → Porcelain
+- 青瓷 → Celadon
+- 珐琅 → Enamel
+- 纹理质感 → Texture
+- 金属漆质感 → Metallic paint texture
+- 皮毛质感 → Fur texture
+- 雕刻质感 → Carved texture
+- 蕾丝 → Lace
+- 天鹅绒 → Velvet
+- 砂岩 → Sandstone
+- 沙质 → Sandy texture
+- 陶瓷质感 → Ceramic texture
+- 古铜质感 → Antique bronze texture
+- 砖石质感 → Brick texture
+- 油漆质感 → Paint texture
+- 纱绸质感 → Gauze texture
+- 粘土质感 → Clay texture
+- 菌丝 → Mycelium
+- 腐朽衰败的 → Decayed
+- 骨骼状 → Skeletal
+- 木头 → Wood
+- 亚麻布 → Linen
+
+## 神话
+
+### 神话 / 中国神话（66）
+
+- 盘古，世界的创造者 → Pangu
+- 女娲，创世和人类之神 → Nüwa
+- 伏羲，人类、知识和文化之神 → Fuxi
+- 神农，农业和医药之神 → Shennong
+- 嫦娥，月亮和长生不老之神 → Chang'e
+- 后羿，弓箭和太阳之神 → Houyi
+- 哪吒，保护、勇气和力量之神 → Nezha
+- 玉皇大帝，天地之尊和天堂的统治者 → Jade Emperor
+- 关羽，战争、忠诚和正义之神 → Guan Yu
+- 妈祖，海洋和航海者的守护神 → Mazu
+- 二郎神，保护、真理和忠诚之神 → Erlang Shen
+- 钟馗，驱鬼和护身之神 → Zhong Kui
+- 雷公，雷电之神 → Lei Gong
+- 西王母，西方的女王和长生不老之神 → Xi Wangmu
+- 玉帝妃，慈悲之神 → Yu Di
+- 嫘祖，丝绸和蚕丝之神 → Lei Zu
+- 东王公，东方的天和日出之神 → Dong Wang Gong
+- 西王母四大天仙，侍奉西王母的四位女神 → Xiwangmu's Four Attendants
+- 土地公，土地和土壤之神 → Tu Di Gong
+- 观音菩萨，慈悲和同情之神 → Guan Yin
+- 吕洞宾，文学和文化之神 → Lu Dongbin
+- 韦驮菩萨，武术和佛教的守护神 → Wei Tuo
+- 财神，财富和繁荣之神 → Cai Shen
+- 三清，道教中的三位最高神 → Sanqing
+- 玄武，北方和水、土元素之神 → Xuan Wu
+- 张果老，长寿和炼丹之神 → Zhang Guo Lao
+- 羲和，太阳和温暖之神 → Xihe
+- 后土，土地和丰收之神 → Hou Tu
+- 轩辕，农业和黄帝之神 → Xuan Yuan
+- 白牡丹，花卉和春天之神 → Bai Mudan
+- 蚩尤，战争和雨水之神 → Chi You
+- 孟婆，遗忘之神 → Meng Po
+- 刘海，财富和繁荣之神 → Liu Hai
+- 王母娘娘，西方女王和长生不老之神 → Wang Mu Niang Niang
+- 精卫，试图用石头填海的鸟神 → Jingwei
+- 董永，孝顺和爱情之神 → Dong Yong
+- 福禄寿，财富和长寿的三位神 → Fu Lu Shou
+- 九天玄女，战争和性的女神 → Jiutian Xuannu
+- 胡天保，公正和正义之神 → Hu Tianbao
+- 妈祖，海洋和水手之神 → Matsu
+- 闻仲，忠诚和正义之神 → Wen Zhong
+- 大禹，治水之神 → Da Yu
+- 黄帝，中华文明之神 → Huang Di
+- 常羲，月亮和命运之神 → Chang Xi
+- 土地公，土地和农业之神 → Tudi Gong
+- 谢怜，慈悲和宽容之神 → Xie Lian
+- 炎帝，火和农业之神 → Yandi
+- 玉龙，雨和雷的龙神 → Yulong
+- 风伯，风和雷之神 → Feng Bo
+- 祝融，火和战争之神 → Zhu Rong
+- 东风，东方之神 → Dong Feng
+- 济公，慈悲和智慧的僧人之神 → Ji Gong
+- 水庸，水和海之神 → Shui Yong
+- 崇礼，长寿之神 → Chongli
+- 赵公明，财富和武术之神 → Zhao Gongming
+- 鲁班，木工和工程之神 → Lu Ban
+- 后土，大地和生育之神 → Houtu
+- 后羿，射箭和太阳之神 → Hou Yi
+- 天后，海洋女神和天后 → Tianhou
+- 王母娘娘，西方女王和长寿女神 → Wangmu Niangniang
+- 奎星，考试和学习之神 → Kui Xing
+- 观音，慈悲和怜悯之神 → Guanyin
+- 鸿钧老祖，道教神话中的神灵和宇宙创造者 → Hongjun Laozu
+- 灶君，灶神 → Zao Jun
+- 真武，武术之神和北方的保护神 → Zhenwu
+- 文昌，文学和教育之神 → Wen Chang
+
+### 神话 / 西方希腊诸神（78）
+
+- 阿多尼斯，美和欲望之神 → Adonis
+- 埃俄洛斯，风之神 → Aeolus
+- 阿伊忒耳，上层大气和光的原初神 → Aether
+- 安特洛斯，相互爱之神 → Anteros
+- 阿佛洛狄忒，爱、美和欲望之神 → Aphrodite
+- 阿波罗，音乐、诗歌、预言和医学之神 → Apollo
+- 阿瑞斯，战争、暴力和流血之神 → Ares
+- 阿尔忒弥斯，狩猎、月亮和分娩之神 → Artemis
+- 阿斯克勒庇俄斯，医药和治愈之神 → Asclepius
+- 阿斯特莉亚，正义之女神 → Astraea
+- 雅典娜，智慧、战争和手艺之女神 → Athena
+- 阿特拉斯，天文和航海之泰坦 → Atlas
+- 爱神阿罗拉，黎明女神 → Aurora
+- 巴库斯，酒、狂欢和疯狂之神 → Bacchus
+- 比亚，力量和权力之女神 → Bia
+- 卡吕俄佩，史诗诗歌之缪斯 → Calliope
+- 谷物女神瑟莱斯，农业、谷物和生育之神 → Ceres
+- 混沌，宇宙的原初神 → Chaos
+- 西尔凯，魔法和巫术之女神 → Circe
+- 克利奥，历史之缪斯 → Clio
+- 克洛诺斯，时间和时代之泰坦神 → Cronus
+- 丘比特，爱和吸引之神 → Cupid
+- 赛伯勒，弗里吉亚母亲女神 → Cybele
+- 狄蜜特，农业、生育和收成之女神 → Demeter
+- 黛安娜，狩猎、月亮和分娩之神 → Diana
+- 狄俄尼索斯，酒、节庆和狂欢之神 → Dionysus
+- 埃希德娜，女人头和蛇身之怪物 → Echidna
+- 艾拉托，爱情诗之缪斯 → Erato
+- 爱神艾洛斯，爱和欲望之神 → Eros
+- 法乌努斯，森林、平原和田野之神 → Faunus
+- 福图娜，幸运和命运之女神 → Fortuna
+- 格拉斯，衰老之神 → Geras
+- 冥王哈迪斯，冥界和死亡之神 → Hades
+- 哈尔莫尼亚，和谐和一致之女神 → Harmonia
+- 黑卡忒，魔法、巫术和幽灵之女神 → Hecate
+- 伊利奥斯，太阳之神 → Helios
+- 赫菲斯托斯，火、铁匠和手工艺之神 → Hephaestus
+- 赫拉，诸神之后，婚姻的守护神 → Hera
+- 赫尔墨斯，商业、偷盗和信使之神 → Hermes
+- 赫斯提亚，炉灶、家庭和家族之神 → Hestia
+- 海吉亚，健康和卫生之女神 → Hygieia
+- 雅努斯，开始和转变之神 → Janus
+- 朱诺，诸神之后，婚姻和分娩之神 → Juno
+- 朱庇特，诸神之王，天空和雷电之神 → Jupiter
+- 火星，战争、暴力和农业之神 → Mars
+- 梅尔波门，悲剧之缪斯 → Melpomene
+- 水星，商业、偷盗和信使之神 → Mercury
+- 米涅瓦，智慧、手艺和战略之神 → Minerva
+- 莫菲厄斯，梦之神 → Morpheus
+- 涅墨西斯，报复和惩罚之女神 → Nemesis
+- 海神尼普顿，海洋、地震和马的神 → Neptune
+- 胜利女神尼刻 → Nike
+- 潘，牧羊人、羊群和荒野之神 → Pan
+- 佩尔塞福涅，冥王后和春天女神 → Persephone
+- 恐惧之神福波斯 → Phobos
+- 冥王普鲁托，冥界和财富之神 → Pluto
+- 保利希米娜，赞美诗之缪斯 → Polyhymnia
+- 波塞冬，海神，地震和马的神 → Poseidon
+- 塞勒涅，月亮女神 → Selene
+- 斯堤克斯，冥河斯堤克斯女神和冥界女神 → Styx
+- 特尔普西科莱，舞蹈和合唱之缪斯 → Terpsichore
+- 萨莉亚，喜剧和田园诗之缪斯 → Thalia
+- 死亡之神塔纳托斯 → Thanatos
+- 特里东，海神和海的信使 → Triton
+- 乌拉尼亚，天文之缪斯 → Urania
+- 乌拉诺斯 → Uranus
+- 维纳斯，爱、美和生育之神 → Venus
+- 维斯塔，炉灶、家庭和家族之神 → Vesta
+- 宙斯，诸神之王，天地之父 → Zeus
+- 休底厄斯，光和观察之泰坦 → Hyperion
+- 克洛诺斯，时间之泰坦 → Kronos
+- 奥创纽斯，海洋之泰坦 → Oceanus
+- 普罗米修斯，先见之明和狡猾的建议之泰坦 → Prometheus
+- 瑞亚，生育和母亲之泰坦 → Rhea
+- 塔耳塔洛斯，深渊的原初之神 → Tartarus
+- 忒弥斯，法律和秩序之泰坦 → Themis
+- 泰凯，幸运和机遇之女神 → Tyche
+- 泽菲洛斯，西风之神 → Zephyrus
+
+### 神话 / 埃及神话（11）
+
+- 阿蒙，创造和空气之神 → Amun
+- 阿努比斯，死亡和木乃伊之神 → Anubis
+- 巴斯特，保护、生育和猫之女神 → Bastet
+- 哈索尔，爱、音乐和美丽之女神 → Hathor
+- 赫鲁士，天空、王权和胜利之神 → Horus
+- 伊西丝，魔法、生育和母性之女神 → Isis
+- 玛阿特，真理、正义和和谐之女神 → Ma'at
+- 奥西里斯，来世和重生之神 → Osiris
+- 荷鲁斯，太阳和创造之神 → Ra
+- 塞赫梅特，战争、毁灭和治愈之女神 → Sekhmet
+- 托特，知识、写作和智慧之神 → Thoth
+
+---
+
+## 附：Midjourney 参数指令
+
+- `/imagine (prompt)`（基础参数）— 根据你给的关键词随机生成4张图片，文生图
+- `--ar`（后缀参数）— 「宽长比」--aspect，或-ar用来设署图片的尺寸、宽高比
+- `/describe ( image)`（基础参数）— 根据你给的图片给你4条关键词示例，可以用来分析爆款图片的关键词，图生文
+- `--chaos`（后缀参数）— 「混乱」--chaos<number0-100》改变结果的多样性，较高的的值会产生更多不寻常和意外的效果
+- `/settings`（基础参数）— 查看当前默认设置，包括模型、风格，图片质量、速度等
+- `--no`（后缀参数）— 「负面提示」 --no-no plants表示会尝试从图像中移除植物
+- `/subscribe`（基础参数）— 购买会员服务的链接管理订阅
+- `--quality`（后缀参数）— 「质量」--quality<,25,.5,1>,或-q <,25,.5,1>您要花费多少染质量时间，默认值为1，值越高成本越高,值越低成本越低
+- `/ask ( question )`（基础参数）— 提问获取答案
+- `--seed`（后缀参数）— 「种子」--seed<integer between 0-4294967295> Midjourey使用种子编号创建视觉嗓声场，然后为每个图像随机生成，但可以使用seed或-sameseed参数指定，使用相同的种子编号和提示将产生相似的结束图像
+- `/blend`（基础参数）— 混合模式，该指令允许你上传2-5张图片,然后将这些图片合成新的图片效果
+- `--stop`（后缀参数）— 「停止」 --stop<integerbetween 10-100>使用-stop参数在流程中途完成作业，以较早的百分比停止作业会产生更模糊、不详细的结果
+- `/info`（基础参数）— 查看你的用户信息，有关当前排队或正在运行的作业、订阅类型、续订日期等信息
+- `--style`（后缀参数）— 「风格」 --style<4a,4b or 4c>在Midjourney模型版本之间切换
+- `/help`（基础参数）— 指南及基本的帮助信息
+- `--stylize`（后缀参数）— 「程式化」 --stylize<number>,或-s<number>参数会影响Midjourney的默认美学风格应用于作业的强度
+- `/prefer remix`（基础参数）— 切换到混合模式
+- `--tile`（后缀参数）— 「平铺」该参数可用作重复拼贴的图像，以创建织物、壁纸和纹理的无缝图案
+- `/prefer option set`（基础参数）— 创建或管理一个自定义选项
+- `--uplight`（后缀参数）— 「升频器」--uplight选择U按钮时使用替代的”轻型”升频器，结果更更接近原始网格图像。放大后的图像细节更少,更平滑
+- `/prefer option list`（基础参数）— 查看你当前的自定义选项
+- `--upbeta`（后缀参数）— 「升频器」--upbeta选择U按钮时使用替代的beta升频器。结果更接近原始网格图像。放大后的图像添加的细节明显页少
+- `/prefer suffix`（基础参数）— 指定一个后缀,添加到每个提示的末尾
+- `--video`（后缀参数）— 可用于创建图像生成过程的短片
+- `/show`（基础参数）— 重现自己的图片
+- `::`（后缀参数）— 「关键词权重」让 Midjourney 分别考虑两个或多个单独的关键词概念，
+- `/fast`（基础参数）— 切换到快速模式，一分钟以内出图，标准版15小时快速模式，专业版30小时
+- `--iw`（后缀参数）— 「垫图权重」找到一张合适的图片作为参考底图，配上文字描述，得到与图文相符合的图像，
+- `/relax`（基础参数）— 切换到慢速模式，3-5分钟出图，一般默认是快速模式用完以后自动切换
+- `--v 6`（后缀参数）— 「版本」 -version5可以缩写为--v5接受值1、2、3、4、5.1、5.2、6、6.1
+- `/private`（基础参数）— 私人创作,作品不会放在公开空间
+- `--niji 6`（后缀参数）— 「niji模型」专门针对动漫盒二次元的模型插图风格
+- `/stealth`（基础参数）— 切换到隐身模式(限专业计划的用户60美金/月)，生成的图片不在社区展示
+- `--cref`（后缀参数）— 后接参考图片的网址，就可以生成和参考图片一样相貌的人物。配合参数--cw，可以控制相似的范围。--cw 的数值在10---100。选择10，只是面部一致。选择100，则连带衣服和配饰也保持一致或者类似。
+- `/public`（基础参数）— 切换到公共模式(限专业计划的用户60美金/月)
+- `--cref`（后缀参数）— 目前只支持V6版本和Niji 6版本。但是，这也就意味着同一个人物可以生成真人实景照片，也可以利用Niji 6生成漫画人物，风格可以跨越。--cref 的控制不是很准确，还需要自己细调和选择。我自己测试的结果显示，
+- `/shorten`（基础参数）— 分析提示词中关键字
+- `-- p`（后缀参数）— 个性化模型
+
+## 附：SD 通用正/负面词
+
+### 通用一
+
+```
+masterpiece,ultra-detailed,best quality,HD Quality
+```
+
+### 通用二
+
+```
+4k,best quality,masterpiece,high quality,finely detailed,ultra highres,
+```
+
+### 真实质感可加
+
+```
+(photorealistic:1.4),(ultra realistic details:1.4),realistic,
+```
+
+### 一般负面提示词：
+
+```
+lowres, error, cropped, worst quality, low quality, jpeg artifacts, out of frame, watermark, signature，blurry
+```
+
+### 通用一
+
+```
+(worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), bad anatomy,DeepNegative, skin spots, acnes, skin blemishes,(fat:1.2),facing away, looking away,tilted head, lowres,bad anatomy,bad hands, missing fingers,extra digit, fewer digits,bad feet,poorly drawn hands,poorly drawn face,mutation,deformed,extra fingers,extra limbs,extra arms,extra legs,malformed limbs,fused fingers,too many fingers,long neck,cross-eyed,mutated hands,polar lowres,bad body,bad proportions,gross proportions,missing arms,missing legs,extra digit, extra arms, extra leg, extra foot,teethcroppe,signature, watermark, username,blurry,cropped,jpeg artifacts,text,error,
+```
+
+### 通用二
+
+```
+illustration, 3d, sepia, painting, cartoons, sketch, (worst quality:2), ((monochrome)), ((grayscale:1.2)), (backlight:1.2), analog, analogphoto,bad anatomy, bad hands, double navel, collapsed eyeshadow, multiple eyebrows, freckles, signature, logo,2faces,DeepNegative, skin spots, acnes, skin blemishes,(fat:1.2),
+```
+
+### 人物肖像负面一：
+
+```
+NSFW,lowrs,blurry,(deformed, distorted, disfigured:1.3), (stacked torsos:1.2), (totem pole:1.1), poorly drawn, bad anatomy, wrong anatomy, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck,extra limb, missing limb, floating limbs, (mutated hands and fingers:1.4), disconnected limbs, mutation, mutated, ugly, disgusting, blurry, amputation, (extra fingers:1.2), (worst quality, low quality:1.3)out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, mutation, deformed, blurry, dehydrated, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs
+```
+
+### 人物肖像负面二：
+
+```
+(((simple background))),monochrome,lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped, worst quality, low quality, normal quality, jpeg artifacts,username, bad anatomy,cropped,worst quality, low quality, normal quality, signature, watermark, blurry, ugly,pregnant,vore,duplicate,morbid,mut ilated,tran nsexual, hermaphrodite,long neck,mutated hands,poorly drawn hands,poorly drawn face,mutation,deformed,bad anatomy,bad proportions,malformed limbs,extra limbs,cloned face,disfigured,gross proportions, (((missing arms))),(((missing legs))), (((extra arms))),(((extra legs))),pubic hair, plump,bad legs,error legs,bad feet
+```
+
+### 逼真图片的负面：
+
+```
+illustration, painting, drawing, art, sketch
+```
+
+## 附：绘画分类树（技法 / 内容 / 时代 / 材料）
+
+- **油画**　`绘画技法`
+- 　└ 传统油画　`绘画技法`
+- **静物画**　`绘画内容`
+- 　└ 花卉静物画　`绘画内容`
+- **古典绘画**　`绘画时代`
+- 　└ 文艺复兴绘画　`绘画时代`
+- **传统绘画材料**　`绘画材料`
+- 　└ 油画颜料　`绘画材料`
+- **卡通动漫**　`其他类别`
+- 　└ 印象派油画　`绘画技法`
+- 　└ 水果静物画　`绘画内容`
+- 　└ 巴洛克绘画　`绘画时代`
+- 　└ 水彩颜料　`绘画材料`
+- **涂鸦线条绘画**　`其他类别`
+- 　└ 现代油画　`绘画技法`
+- 　└ 器皿静物画　`绘画内容`
+- 　└ 浪漫主义绘画　`绘画时代`
+- 　└ 铅笔、炭笔等　`绘画材料`
+- **简笔画**　`其他类别`
+- **水彩画**　`绘画技法`
+- 　└ 透明水彩画　`绘画技法`
+- **人物画**　`绘画内容`
+- 　└ 肖像画　`绘画内容`
+- **现代绘画**　`绘画时代`
+- 　└ 印象派绘画　`绘画时代`
+- **数字绘画材料**　`绘画材料`
+- 　└ 数位板　`绘画材料`
+- **马克笔画**　`其他类别`
+- 　└ 重绘水彩画　`绘画技法`
+- 　└ 人物风俗画　`绘画内容`
+- 　└ 表现主义绘画　`绘画时代`
+- 　└ 数字绘画软件　`绘画材料`
+- **一笔画**　`其他类别`
+- **素描**　`绘画技法`
+- 　└ 铅笔素描　`绘画技法`
+- 　└ 人物肖像画　`绘画内容`
+- 　└ 极简主义绘画　`绘画时代`
+- 　└ 炭笔素描　`绘画技法`
+- **风景画**　`绘画内容`
+- 　└ 自然风景画　`绘画内容`
+- **当代绘画**　`绘画时代`
+- 　└ 抽象表现主义绘画　`绘画时代`
+- 　└ 彩色素描　`绘画技法`
+- 　└ 城市风景画　`绘画内容`
+- 　└ 超现实主义绘画　`绘画时代`
+- **粉彩画**　`绘画技法`
+- 　└ 干粉彩画　`绘画技法`
+- 　└ 乡村风景画　`绘画内容`
+- 　└ 后现代主义绘画　`绘画时代`
+- 　└ 湿粉彩画　`绘画技法`
+- **抽象画**　`绘画内容`
+- 　└ 色彩抽象画　`绘画内容`
+- **墨画**　`绘画技法`
+- 　└ 水墨画　`绘画技法`
+- 　└ 形式抽象画　`绘画内容`
+- 　└ 汉字画　`绘画技法`
+- 　└ 符号抽象画　`绘画内容`
