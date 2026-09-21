@@ -87,6 +87,7 @@ FIX_ZH = [
     ("编制马尾辫", "编织马尾辫"),
     ("两景(25)", "两景(2S)"),
     ("(核桃)的横截面图", "横截面图"),
+    ("奈方山水画", "东方山水画"),
 ]
 
 # 2) 同一个中文在不同英文下含义不同，不能靠子串替换，按 (中文, 旧英文) → 新值 定点修
@@ -107,6 +108,12 @@ FIX_PAIR = {
     ("皮克斯风格", "Picos style"): ("皮克斯风格", "Pixar style"),
     ("梦工厂动画风格", "CGSociety"): ("梦工厂动画风格", "DreamWorks Animation style"),
     ("等距线描", "Hatching"): ("等距线描", "Isometric line drawing"),
+    # 同一件东西在源表里录了两遍，一次中文错（奈方山水画）一次英文错（Tradition→Traditional）
+    ("东方山水画", "Tradition Chinese Ink Painting"):
+        ("东方山水画", "Traditional Chinese Ink Painting"),
+    ("国风", "Tradition Chinese Ink Painting style"):
+        ("国风", "Traditional Chinese Ink Painting style"),
+    ("立绘阴影", "drop shadow"): ("投影阴影", "drop shadow"),
 }
 
 # 3) 源表里明确无意义或残缺的条目
@@ -138,6 +145,60 @@ EXTRA_TERMS = [
     ("质量", "画质", "描边线", "outline stroke"),
     ("质量", "画质", "块面头发", "blocky anime hair"),
     ("质量", "画质", "次表面散射", "subsurface scattering"),
+
+    # ── 产品 / 静物（源词库这一支几乎空白：香水 / 静物 / 棚拍全部零命中）──
+    ("主体", "主体、角色", "香水瓶", "perfume bottle"),
+    ("主体", "主体、角色", "化妆品瓶", "cosmetic bottle"),
+    ("风格", "形式", "静物摄影", "still life photography"),
+    ("风格", "形式", "产品摄影", "product photography"),
+    ("风格", "形式", "商业棚拍", "commercial studio photography"),
+    # 产品摄影的高光行为词（源词库的材质只有材质名，没有"光照上去是什么样"）
+    ("质量", "材质", "镜面高光", "specular highlight"),
+    ("质量", "材质", "内部折射", "internal refraction"),
+    ("质量", "材质", "水面倒影", "water reflection"),
+    ("质量", "材质", "露珠", "dew drops"),
+    ("质量", "材质", "高光过渡", "highlight rolloff"),
+
+    # ── 建筑形制（源词库「建筑」只有 7 条，缺全部形制词）──
+    ("场景", "场景", "马头墙", "horse-head gable wall"),
+    ("场景", "场景", "悬山顶", "overhanging gable roof"),
+    ("场景", "场景", "歇山顶", "hip-and-gable roof"),
+    ("场景", "场景", "飞檐", "upturned eaves"),
+    ("场景", "场景", "月洞门", "moon gate"),
+    ("场景", "场景", "美人靠", "waterside bench railing"),
+    ("场景", "场景", "影壁", "spirit screen wall"),
+    ("场景", "场景", "斗拱", "bracket set"),
+    ("质量", "材质", "清水混凝土", "fair-faced concrete"),
+
+    # ── 水墨 / 国画（源词库：宣纸、留白、焦墨全部零命中）──
+    ("质量", "材质", "宣纸", "xuan paper"),
+    ("镜头构图", "构图", "留白", "negative space"),
+    ("风格", "形式", "焦墨", "dense black ink"),
+    ("风格", "形式", "泼墨", "splashed ink"),
+    ("风格", "形式", "飞白", "dry brush"),
+    ("风格", "形式", "皴法", "texture stroke"),
+    ("风格", "形式", "墨色层次", "tonal gradation of ink"),
+    ("风格", "中式元素", "朱红印章", "vermilion seal"),
+    ("风格", "中式元素", "题字", "calligraphic inscription"),
+
+    # ── 三视图 / 角色设定（源词库「姿势」64 条一个设定图站姿都没有）──
+    ("姿势", "整体姿势", "A字站姿", "A-pose"),
+    ("姿势", "整体姿势", "T字站姿", "T-pose"),
+    ("姿势", "整体姿势", "三视图站姿", "three-view neutral stance"),
+    ("姿势", "整体姿势", "正面站姿", "front-facing neutral pose"),
+    ("风格", "形式", "角色三视图", "character turnaround sheet"),
+    ("风格", "形式", "角色设定图", "character design sheet"),
+    ("风格", "形式", "立绘", "character illustration"),
+    # 「四视图」（左脸特写 + 正/侧/背）是中文用户说「人物设定」时的默认排布，
+    # 源词库没有这个词，而 2016~2026 这十年里它一直是中文 AI 绘图的通行说法
+    ("风格", "形式", "角色四视图", "character four-view sheet"),
+    ("风格", "形式", "转面图", "character turnaround"),
+    ("镜头构图", "构图", "面部特写格", "face close-up panel"),
+    ("镜头构图", "构图", "侧视图", "side view"),
+    ("镜头构图", "构图", "背视图", "back view"),
+    ("场景", "背景", "纯色背景", "solid color background"),
+    ("场景", "天气、灯光、光线", "均匀平光", "flat even lighting"),
+    ("姿势", "整体姿势", "中性站姿", "neutral stance"),
 ]
 
 

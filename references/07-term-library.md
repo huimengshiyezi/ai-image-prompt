@@ -7,13 +7,13 @@
 **用法**：先用 `scripts/lookup.py --list` 看分类，再 `--group 场景/天气、灯光、光线` 列候选，
 或 `--kw 逆光` 按中英关键词模糊查。**不要整份读完**——本文件只为检索而生。
 
-共 2550 条，其中 52 条带英文异名（写作 `(亦作: …)`）。
+共 2593 条，其中 52 条带英文异名（写作 `(亦作: …)`）。
 
 ---
 
 ## 风格
 
-### 风格 / 形式（106）
+### 风格 / 形式（119）
 
 - 插画 → illustration
 - 水墨画 → Sumi-e　(亦作: Ink wash painting)
@@ -119,8 +119,21 @@
 - 珊瑚 → Coral
 - 彩色玻璃窗 → Stained glass window
 - 水墨插图 → ink illustration　(亦作: Ink Illustration)
-- 东方山水画 → Tradition Chinese Ink Painting
+- 东方山水画 → Traditional Chinese Ink Painting
 - 素描画法 → Sketch Drawing
+- 静物摄影 → still life photography
+- 产品摄影 → product photography
+- 商业棚拍 → commercial studio photography
+- 焦墨 → dense black ink
+- 泼墨 → splashed ink
+- 飞白 → dry brush
+- 皴法 → texture stroke
+- 墨色层次 → tonal gradation of ink
+- 角色三视图 → character turnaround sheet
+- 角色设定图 → character design sheet
+- 立绘 → character illustration
+- 角色四视图 → character four-view sheet
+- 转面图 → character turnaround
 
 ### 风格 / 艺术家（26）
 
@@ -293,7 +306,7 @@
 - 抽象风 → I Abstract
 - riso印刷风 → risograph
 - 设计风 → Graphic
-- 国风 → Tradition Chinese Ink Painting style
+- 国风 → Traditional Chinese Ink Painting style
 - 涂鸦 → Graffiti
 - 曼陀罗 → Mandala
 - 图形小说 → Graphic Novel
@@ -304,7 +317,7 @@
 - 黑白 → Black and white　(亦作: black and white)
 - 珍珠奶茶风格 → Pearl Milk Tea Style
 - 克劳德·莫奈 → Claude Monet
-- 奈方山水画 → Traditional Chinese Ink Painting
+- 东方山水画 → Traditional Chinese Ink Painting
 - 水墨风格 → Ink Wash Painting Style
 - 水墨插图 → Ink Illustration　(亦作: ink illustration)
 - 纸本彩色墨水 → Color Ink on Paper
@@ -491,7 +504,7 @@
 - 针织的 → Knitted
 - 波尔卡 → Polka
 
-### 风格 / 中式元素（16）
+### 风格 / 中式元素（18）
 
 - 汉服 → Hanfu
 - 昆曲 → Kunqu opera
@@ -509,6 +522,8 @@
 - 刺绣 → Embroidered
 - 玉 → Jade
 - 梅花 → Plum flower
+- 朱红印章 → vermilion seal
+- 题字 → calligraphic inscription
 
 ### 风格 / 国潮插画风格（32）
 
@@ -571,7 +586,7 @@
 - 盛开 → bloom
 - 抖动 → dithering
 - 色差滥用 → chromatic aberration abuse
-- 立绘阴影 → drop shadow
+- 投影阴影 → drop shadow
 - 胶片颗粒感/老电影滤镜 → film grain
 - 半调风格 → halftone
 - 富士色彩 → Fujicolor
@@ -596,7 +611,7 @@
 
 ## 主体
 
-### 主体 / 主体、角色（39）
+### 主体 / 主体、角色（41）
 
 - 男性 → male
 - 女性 → female
@@ -637,6 +652,8 @@
 - 女巨人 → giantess
 - 迷你女孩 → minigirl
 - 兽耳萝莉模式 → kemonomimi mode
+- 香水瓶 → perfume bottle
+- 化妆品瓶 → cosmetic bottle
 
 ### 主体 / 身材、人物部位（21）
 
@@ -1125,7 +1142,7 @@
 
 ## 姿势
 
-### 姿势 / 整体姿势（64）
+### 姿势 / 整体姿势（69）
 
 - 站立 → standing
 - 坐着 → sitting
@@ -1191,6 +1208,11 @@
 - 抽烟 → smoking
 - 侧 → on side
 - 背对背 → back-to-back
+- A字站姿 → A-pose
+- T字站姿 → T-pose
+- 三视图站姿 → three-view neutral stance
+- 正面站姿 → front-facing neutral pose
+- 中性站姿 → neutral stance
 
 ### 姿势 / 手部动作（41）
 
@@ -1629,7 +1651,7 @@
 
 ## 场景
 
-### 场景 / 场景（158）
+### 场景 / 场景（166）
 
 - 草原 → in a meadow
 - 高原 → plateau
@@ -1789,8 +1811,16 @@
 - 星球大战 → Star Wars
 - 火星深险 → Mars Exploration
 - 科技城市 → Technological City
+- 马头墙 → horse-head gable wall
+- 悬山顶 → overhanging gable roof
+- 歇山顶 → hip-and-gable roof
+- 飞檐 → upturned eaves
+- 月洞门 → moon gate
+- 美人靠 → waterside bench railing
+- 影壁 → spirit screen wall
+- 斗拱 → bracket set
 
-### 场景 / 天气、灯光、光线（128）
+### 场景 / 天气、灯光、光线（129）
 
 - 黄金时段照明 → golden hour lighting
 - 强边缘光 → strong rim light
@@ -1920,8 +1950,9 @@
 - 星密 → Winking Stars
 - 全局照明 → Global Illumination
 - 柔和烛光 → Soft Candlelight
+- 均匀平光 → flat even lighting
 
-### 场景 / 背景（6）
+### 场景 / 背景（7）
 
 - 透明背景 → transparent background
 - 渐变的背景 → gradient background
@@ -1929,6 +1960,7 @@
 - 白色背景 → white background
 - 模糊背景 → blurred background
 - 简单花纹背景 → simple patterned background
+- 纯色背景 → solid color background
 
 ### 场景 / 季节（4）
 
@@ -2056,7 +2088,7 @@
 - 极限近景 → Extreme Close-Up
 - 模拟摄影机 → Simulated Camera
 
-### 镜头构图 / 构图（71）
+### 镜头构图 / 构图（75）
 
 - 对称构图 → Symmetrical composition
 - 对角线构图 → Diagonal composition
@@ -2129,6 +2161,10 @@
 - 微距 → Macro shot
 - 景观 → An expansive view of
 - 前视、侧视、后视图 → Front, Side, Rear View
+- 留白 → negative space
+- 面部特写格 → face close-up panel
+- 侧视图 → side view
+- 背视图 → back view
 
 ### 镜头构图 / 镜头解析（14）
 
@@ -2474,7 +2510,7 @@
 - 充满动感的 → Dynamic
 - 统一的 → Uniform
 
-### 质量 / 材质（74）
+### 质量 / 材质（81）
 
 - 铝合金 → Aluminum
 - 砖块 → Brick
@@ -2550,6 +2586,13 @@
 - 骨骼状 → Skeletal
 - 木头 → Wood
 - 亚麻布 → Linen
+- 镜面高光 → specular highlight
+- 内部折射 → internal refraction
+- 水面倒影 → water reflection
+- 露珠 → dew drops
+- 高光过渡 → highlight rolloff
+- 清水混凝土 → fair-faced concrete
+- 宣纸 → xuan paper
 
 ## 神话
 

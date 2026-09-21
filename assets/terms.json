@@ -1,11 +1,11 @@
 {
  "source": "本地词库 Markdown",
  "stats": {
-  "terms": 2650,
-  "unique": 2550,
+  "terms": 2693,
+  "unique": 2593,
   "dup_removed": 100,
   "with_alt": 52,
-  "extra": 13,
+  "extra": 56,
   "params": 38,
   "sd_words": 9
  },
@@ -1348,7 +1348,7 @@
   {
    "s": "风格",
    "g": "炫图风格",
-   "zh": "立绘阴影",
+   "zh": "投影阴影",
    "en": "drop shadow"
   },
   {
@@ -2868,7 +2868,7 @@
    "s": "风格",
    "g": "形式",
    "zh": "东方山水画",
-   "en": "Tradition Chinese Ink Painting"
+   "en": "Traditional Chinese Ink Painting"
   },
   {
    "s": "风格",
@@ -3102,7 +3102,7 @@
    "s": "风格",
    "g": "艺术风格",
    "zh": "国风",
-   "en": "Tradition Chinese Ink Painting style"
+   "en": "Traditional Chinese Ink Painting style"
   },
   {
    "s": "风格",
@@ -3170,7 +3170,7 @@
   {
    "s": "风格",
    "g": "艺术风格",
-   "zh": "奈方山水画",
+   "zh": "东方山水画",
    "en": "Traditional Chinese Ink Painting"
   },
   {
@@ -15649,6 +15649,307 @@
    "g": "画质",
    "zh": "次表面散射",
    "en": "subsurface scattering",
+   "extra": true
+  },
+  {
+   "s": "主体",
+   "g": "主体、角色",
+   "zh": "香水瓶",
+   "en": "perfume bottle",
+   "extra": true
+  },
+  {
+   "s": "主体",
+   "g": "主体、角色",
+   "zh": "化妆品瓶",
+   "en": "cosmetic bottle",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "静物摄影",
+   "en": "still life photography",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "产品摄影",
+   "en": "product photography",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "商业棚拍",
+   "en": "commercial studio photography",
+   "extra": true
+  },
+  {
+   "s": "质量",
+   "g": "材质",
+   "zh": "镜面高光",
+   "en": "specular highlight",
+   "extra": true
+  },
+  {
+   "s": "质量",
+   "g": "材质",
+   "zh": "内部折射",
+   "en": "internal refraction",
+   "extra": true
+  },
+  {
+   "s": "质量",
+   "g": "材质",
+   "zh": "水面倒影",
+   "en": "water reflection",
+   "extra": true
+  },
+  {
+   "s": "质量",
+   "g": "材质",
+   "zh": "露珠",
+   "en": "dew drops",
+   "extra": true
+  },
+  {
+   "s": "质量",
+   "g": "材质",
+   "zh": "高光过渡",
+   "en": "highlight rolloff",
+   "extra": true
+  },
+  {
+   "s": "场景",
+   "g": "场景",
+   "zh": "马头墙",
+   "en": "horse-head gable wall",
+   "extra": true
+  },
+  {
+   "s": "场景",
+   "g": "场景",
+   "zh": "悬山顶",
+   "en": "overhanging gable roof",
+   "extra": true
+  },
+  {
+   "s": "场景",
+   "g": "场景",
+   "zh": "歇山顶",
+   "en": "hip-and-gable roof",
+   "extra": true
+  },
+  {
+   "s": "场景",
+   "g": "场景",
+   "zh": "飞檐",
+   "en": "upturned eaves",
+   "extra": true
+  },
+  {
+   "s": "场景",
+   "g": "场景",
+   "zh": "月洞门",
+   "en": "moon gate",
+   "extra": true
+  },
+  {
+   "s": "场景",
+   "g": "场景",
+   "zh": "美人靠",
+   "en": "waterside bench railing",
+   "extra": true
+  },
+  {
+   "s": "场景",
+   "g": "场景",
+   "zh": "影壁",
+   "en": "spirit screen wall",
+   "extra": true
+  },
+  {
+   "s": "场景",
+   "g": "场景",
+   "zh": "斗拱",
+   "en": "bracket set",
+   "extra": true
+  },
+  {
+   "s": "质量",
+   "g": "材质",
+   "zh": "清水混凝土",
+   "en": "fair-faced concrete",
+   "extra": true
+  },
+  {
+   "s": "质量",
+   "g": "材质",
+   "zh": "宣纸",
+   "en": "xuan paper",
+   "extra": true
+  },
+  {
+   "s": "镜头构图",
+   "g": "构图",
+   "zh": "留白",
+   "en": "negative space",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "焦墨",
+   "en": "dense black ink",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "泼墨",
+   "en": "splashed ink",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "飞白",
+   "en": "dry brush",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "皴法",
+   "en": "texture stroke",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "墨色层次",
+   "en": "tonal gradation of ink",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "中式元素",
+   "zh": "朱红印章",
+   "en": "vermilion seal",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "中式元素",
+   "zh": "题字",
+   "en": "calligraphic inscription",
+   "extra": true
+  },
+  {
+   "s": "姿势",
+   "g": "整体姿势",
+   "zh": "A字站姿",
+   "en": "A-pose",
+   "extra": true
+  },
+  {
+   "s": "姿势",
+   "g": "整体姿势",
+   "zh": "T字站姿",
+   "en": "T-pose",
+   "extra": true
+  },
+  {
+   "s": "姿势",
+   "g": "整体姿势",
+   "zh": "三视图站姿",
+   "en": "three-view neutral stance",
+   "extra": true
+  },
+  {
+   "s": "姿势",
+   "g": "整体姿势",
+   "zh": "正面站姿",
+   "en": "front-facing neutral pose",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "角色三视图",
+   "en": "character turnaround sheet",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "角色设定图",
+   "en": "character design sheet",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "立绘",
+   "en": "character illustration",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "角色四视图",
+   "en": "character four-view sheet",
+   "extra": true
+  },
+  {
+   "s": "风格",
+   "g": "形式",
+   "zh": "转面图",
+   "en": "character turnaround",
+   "extra": true
+  },
+  {
+   "s": "镜头构图",
+   "g": "构图",
+   "zh": "面部特写格",
+   "en": "face close-up panel",
+   "extra": true
+  },
+  {
+   "s": "镜头构图",
+   "g": "构图",
+   "zh": "侧视图",
+   "en": "side view",
+   "extra": true
+  },
+  {
+   "s": "镜头构图",
+   "g": "构图",
+   "zh": "背视图",
+   "en": "back view",
+   "extra": true
+  },
+  {
+   "s": "场景",
+   "g": "背景",
+   "zh": "纯色背景",
+   "en": "solid color background",
+   "extra": true
+  },
+  {
+   "s": "场景",
+   "g": "天气、灯光、光线",
+   "zh": "均匀平光",
+   "en": "flat even lighting",
+   "extra": true
+  },
+  {
+   "s": "姿势",
+   "g": "整体姿势",
+   "zh": "中性站姿",
+   "en": "neutral stance",
    "extra": true
   }
  ],
