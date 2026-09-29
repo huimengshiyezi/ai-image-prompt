@@ -14,3 +14,11 @@ Thumbs.db
 tmp/
 *.tmp
 *.bak
+
+# 词库素材快照（含来源署名信息，不进公开仓库）
+_sources/
+
+# 个人标识词表（真名 / 账号名等）—— 供 check_terms.py 的脱敏护栏读取。
+# ⛔ 只提交 .example，真实词表永不入库。
+.privacy-words.txt
+scripts/.privacy-words.txt

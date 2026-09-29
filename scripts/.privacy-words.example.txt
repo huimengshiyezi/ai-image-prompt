@@ -1,0 +1,15 @@
+# 个人标识词表 —— 示例模板
+#
+# 【用途】check_terms.py 的「开源脱敏护栏」会逐条扫词库源 lexicon/*.md，
+#         命中下面任一词即判 FAIL，防止个人痕迹随公开仓库带出去。
+# 【用法】复制本文件为同目录下的 .privacy-words.txt，把词换成自己的。
+#         （.privacy-words.txt 已在仓库根 .gitignore 中，不会进仓库）
+#         也可以用环境变量：AI_IMAGE_PROMPT_PRIVACY_WORDS=词1,词2
+# 【格式】一行一个词；# 开头是注释；空行忽略；匹配大小写不敏感。
+# 【要点】⛔ 只管特指写法，别写普通名词 —— 「叶子」是树上的叶子，
+#         写进去会把词库里的正常词条全部误报。
+
+示例作者署名
+示例平台账号名
+ExampleHandle
+example_account_id
