@@ -29,6 +29,15 @@ import json
 import sys
 from pathlib import Path
 
+# ⛔ 中文 Windows 的控制台默认编码是 GBK：命中「慎用」条目时输出里的 ⛔ 会抛
+#    UnicodeEncodeError，**打到一半就中断** —— 拿到的是被截断的结果，还看不出来。
+#    这里把输出强制成 UTF-8（Python 3.7+）。
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 TERMS = Path(__file__).resolve().parent.parent / "assets" / "terms.json"
 
 STATUS_ORDER = ("常用", "可用", "少见", "慎用")

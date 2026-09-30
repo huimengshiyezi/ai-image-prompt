@@ -32,6 +32,15 @@ import re
 import sys
 from pathlib import Path
 
+# ⛔ 中文 Windows 的控制台默认编码是 GBK：打印 ✅ / ⛔ / ℹ️ 这类字符会抛
+#    UnicodeEncodeError 并以 exit 1 收场 —— 这与「有 FAIL」的退出码撞车，
+#    会被误判成"词库有问题"。这里把输出强制成 UTF-8（Python 3.7+）。
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8")
+    except Exception:
+        pass
+
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
